@@ -1,0 +1,1 @@
+# O progama simula operações de vendas desde o abastecimento do estoque, atualizando o estoque, registrando a venda e sua quantidades vendidas no mes. Gera tambem um relatorio de vendas no mes.

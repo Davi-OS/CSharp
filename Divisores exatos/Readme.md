@@ -1,0 +1,1 @@
+# O programa conta e mostra todos os divisores do numero que o usuario escolher.

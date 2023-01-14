@@ -1,0 +1,5 @@
+Relatorio de Vendas
+Vendas do Produto A: 20
+Vendas do Produto B: 100
+Vendas do Produto C: 0
+Vendas do Produto D: 0
