@@ -1,0 +1,61 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Droit\\Desktop\\CSHARP\\CSharp\\AEDS\\exerciciosAeds\\Exercicios collections\\Exercicios 1-17\\1\\Exercicios 1-17.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Droit\\Desktop\\CSHARP\\CSharp\\AEDS\\exerciciosAeds\\Exercicios collections\\Exercicios 1-17\\1\\Exercicios 1-17.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Droit\\Desktop\\CSHARP\\CSharp\\AEDS\\exerciciosAeds\\Exercicios collections\\Exercicios 1-17\\1\\Exercicios 1-17.csproj",
+        "projectName": "Exercicios 1-17",
+        "projectPath": "C:\\Users\\Droit\\Desktop\\CSHARP\\CSharp\\AEDS\\exerciciosAeds\\Exercicios collections\\Exercicios 1-17\\1\\Exercicios 1-17.csproj",
+        "packagesPath": "C:\\Users\\Droit\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Droit\\Desktop\\CSHARP\\CSharp\\AEDS\\exerciciosAeds\\Exercicios collections\\Exercicios 1-17\\1\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Droit\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files (x86)\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

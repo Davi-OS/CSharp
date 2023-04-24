@@ -1,0 +1,15 @@
+C:\Users\Droit\Desktop\CSHARP\CSharp\AEDS\exerciciosAeds\Nova pasta\TP01 - Aluno\TP01Q04 - Is em Csharp\obj\Debug\net7.0\TP01Q04 - Is em Csharp.csproj.AssemblyReference.cache
+C:\Users\Droit\Desktop\CSHARP\CSharp\AEDS\exerciciosAeds\Nova pasta\TP01 - Aluno\TP01Q04 - Is em Csharp\obj\Debug\net7.0\TP01Q04 - Is em Csharp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Droit\Desktop\CSHARP\CSharp\AEDS\exerciciosAeds\Nova pasta\TP01 - Aluno\TP01Q04 - Is em Csharp\obj\Debug\net7.0\TP01Q04 - Is em Csharp.AssemblyInfoInputs.cache
+C:\Users\Droit\Desktop\CSHARP\CSharp\AEDS\exerciciosAeds\Nova pasta\TP01 - Aluno\TP01Q04 - Is em Csharp\obj\Debug\net7.0\TP01Q04 - Is em Csharp.AssemblyInfo.cs
+C:\Users\Droit\Desktop\CSHARP\CSharp\AEDS\exerciciosAeds\Nova pasta\TP01 - Aluno\TP01Q04 - Is em Csharp\obj\Debug\net7.0\TP01Q04 - Is em Csharp.csproj.CoreCompileInputs.cache
+C:\Users\Droit\Desktop\CSHARP\CSharp\AEDS\exerciciosAeds\Nova pasta\TP01 - Aluno\TP01Q04 - Is em Csharp\bin\Debug\net7.0\TP01Q04 - Is em Csharp.exe
+C:\Users\Droit\Desktop\CSHARP\CSharp\AEDS\exerciciosAeds\Nova pasta\TP01 - Aluno\TP01Q04 - Is em Csharp\bin\Debug\net7.0\TP01Q04 - Is em Csharp.deps.json
+C:\Users\Droit\Desktop\CSHARP\CSharp\AEDS\exerciciosAeds\Nova pasta\TP01 - Aluno\TP01Q04 - Is em Csharp\bin\Debug\net7.0\TP01Q04 - Is em Csharp.runtimeconfig.json
+C:\Users\Droit\Desktop\CSHARP\CSharp\AEDS\exerciciosAeds\Nova pasta\TP01 - Aluno\TP01Q04 - Is em Csharp\bin\Debug\net7.0\TP01Q04 - Is em Csharp.dll
+C:\Users\Droit\Desktop\CSHARP\CSharp\AEDS\exerciciosAeds\Nova pasta\TP01 - Aluno\TP01Q04 - Is em Csharp\bin\Debug\net7.0\TP01Q04 - Is em Csharp.pdb
+C:\Users\Droit\Desktop\CSHARP\CSharp\AEDS\exerciciosAeds\Nova pasta\TP01 - Aluno\TP01Q04 - Is em Csharp\obj\Debug\net7.0\TP01Q04 - Is em Csharp.dll
+C:\Users\Droit\Desktop\CSHARP\CSharp\AEDS\exerciciosAeds\Nova pasta\TP01 - Aluno\TP01Q04 - Is em Csharp\obj\Debug\net7.0\refint\TP01Q04 - Is em Csharp.dll
+C:\Users\Droit\Desktop\CSHARP\CSharp\AEDS\exerciciosAeds\Nova pasta\TP01 - Aluno\TP01Q04 - Is em Csharp\obj\Debug\net7.0\TP01Q04 - Is em Csharp.pdb
+C:\Users\Droit\Desktop\CSHARP\CSharp\AEDS\exerciciosAeds\Nova pasta\TP01 - Aluno\TP01Q04 - Is em Csharp\obj\Debug\net7.0\TP01Q04 - Is em Csharp.genruntimeconfig.cache
+C:\Users\Droit\Desktop\CSHARP\CSharp\AEDS\exerciciosAeds\Nova pasta\TP01 - Aluno\TP01Q04 - Is em Csharp\obj\Debug\net7.0\ref\TP01Q04 - Is em Csharp.dll
