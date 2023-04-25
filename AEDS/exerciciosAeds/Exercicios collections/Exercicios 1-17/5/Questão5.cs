@@ -3,7 +3,7 @@ using System.Collections;
 
 namespace ListaColections
 {
-    class Questão3
+    class Questão5
     {
         public static void Main(string[] args)
         {

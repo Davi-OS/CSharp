@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections;
 
-class Questão16
+class Questão17
 {
     public static void Main(string[] args)
     {
