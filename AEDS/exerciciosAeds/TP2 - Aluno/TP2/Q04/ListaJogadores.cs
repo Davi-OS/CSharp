@@ -39,6 +39,7 @@ class Program
         // Criando a Lista
         lista listaJogadores = new lista();
         listaJogadores.preencheLista(time, n);
+        
         //exibindo os Jogadores na lista
         listaJogadores.ExibirLista();
     }
