@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections;
 using System.Text;
-using System.IO;
 
 class Program
 {
@@ -39,7 +38,7 @@ class Program
         // Criando a Lista
         lista listaJogadores = new lista();
         listaJogadores.preencheLista(time, n);
-        
+
         //exibindo os Jogadores na lista
         listaJogadores.ExibirLista();
     }
@@ -51,7 +50,6 @@ class lista
     public int n;
     int numOperacoes;
     string instrucao = "";
-    string segundaParte;
     string linha;
 
     //Jogadores temporarios necessarios para realiar as operações de  Remoçãoo e inserção na lista
@@ -67,7 +65,6 @@ class lista
         {
             linha = Console.ReadLine();
             instrucao = RetiraInstrucao(linha);
-            segundaParte = Restante(linha);
             int pos = 0;
 
             switch (instrucao)
@@ -79,9 +76,8 @@ class lista
 
                     break;
                 case "I*":
-
-                    pos = RetiraPos(segundaParte);
-                    temp2.Ler(RetiraDados(segundaParte));
+                    pos = RetiraPos(linha);
+                    temp2.Ler(linha);
                     Inserir(temp2, pos);
 
                     break;
@@ -93,7 +89,7 @@ class lista
                     break;
                 case "R*":
 
-                    pos = RetiraPos(segundaParte);
+                    pos = RetiraPos(linha);
                     temp = remover(pos);
 
                     break;
@@ -184,23 +180,11 @@ class lista
         n++;
     }
 
-    //retira a segunda parte da Instrução
-    public static string Restante(string s)
-    {
-        string restante = "";
-        string[] str = s.Split(' ', 2);
-        for (int i = 1; i < str.Length; i++)
-        {
-            restante += str[i];
-        }
-        return restante;
-    }
-
     // retira a instrução da operação a ser realizada
     public static string RetiraInstrucao(string s)
     {
         string resp;
-        string[] str = s.Split(' ', 2);
+        string[] str = s.Split(' ');
         resp = str[0];
         return resp;
     }
@@ -210,16 +194,7 @@ class lista
     {
         int resp;
         string[] str = s.Split(' ');
-        resp = int.Parse(str[0]);
-        return resp;
-    }
-
-    // retira os dados para serem transformados em um Jogador.
-    public static string RetiraDados(string s)
-    {
-        string resp;
-        string[] str = s.Split(' ', 2);
-        resp = str[1];
+        resp = int.Parse(str[1]);
         return resp;
     }
 
