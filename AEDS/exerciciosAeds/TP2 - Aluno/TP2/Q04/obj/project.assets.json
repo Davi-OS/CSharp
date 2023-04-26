@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Droit\\Desktop\\CSHARP\\CSharp\\AEDS\\exerciciosAeds\\TP2 - Aluno\\TP2\\TP2Q04\\TP2Q04.csproj",
-      "projectName": "TP2Q04",
-      "projectPath": "C:\\Users\\Droit\\Desktop\\CSHARP\\CSharp\\AEDS\\exerciciosAeds\\TP2 - Aluno\\TP2\\TP2Q04\\TP2Q04.csproj",
+      "projectUniqueName": "C:\\Users\\Droit\\Desktop\\CSHARP\\CSharp\\AEDS\\exerciciosAeds\\TP2 - Aluno\\TP2\\Q4\\Q4.csproj",
+      "projectName": "Q4",
+      "projectPath": "C:\\Users\\Droit\\Desktop\\CSHARP\\CSharp\\AEDS\\exerciciosAeds\\TP2 - Aluno\\TP2\\Q4\\Q4.csproj",
       "packagesPath": "C:\\Users\\Droit\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Droit\\Desktop\\CSHARP\\CSharp\\AEDS\\exerciciosAeds\\TP2 - Aluno\\TP2\\TP2Q04\\obj\\",
+      "outputPath": "C:\\Users\\Droit\\Desktop\\CSHARP\\CSharp\\AEDS\\exerciciosAeds\\TP2 - Aluno\\TP2\\Q4\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Droit\\AppData\\Roaming\\NuGet\\NuGet.Config"
