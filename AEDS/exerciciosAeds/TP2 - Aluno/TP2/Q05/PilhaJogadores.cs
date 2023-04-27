@@ -37,76 +37,48 @@ class Program
         }
 
         // Criando a Lista
-        lista listaJogadores = new lista();
-        listaJogadores.preencheLista(time, n);
+        pilha pilhaJogadores = new pilha();
+        pilhaJogadores.preencheLista(time, n);
 
-        //exibindo os Jogadores na lista
-        listaJogadores.ExibirLista();
+        //exibindo os Jogadores na pilha
+        pilhaJogadores.Exibir();
     }
 }
 
-class lista
+class pilha
 {
-    public Jogadores[] listaJogadores;
+    public Jogadores[] pilhaJogadores;
     public int n;
     int numOperacoes;
     string instrucao = "";
     string linha;
 
-    //Jogadores temporarios necessarios para realiar as operações de  Remoçãoo e inserção na lista
+    //Jogadores temporarios necessarios para realiar as operações de  Remoçãoo e inserção na pilha
     Jogadores[] temp = new Jogadores[10];
     int contaJogadoresTemp = 0;
-   
+
     public void preencheLista(Jogadores[] jogadoresIniciais, int qnt)
     {
-        listaJogadores = jogadoresIniciais;
+        pilhaJogadores = jogadoresIniciais;
         n = qnt;
         numOperacoes = int.Parse(Console.ReadLine());
         for (int h = 0; h < numOperacoes; h++)
         {
             linha = Console.ReadLine();
             instrucao = RetiraInstrucao(linha);
-            int pos = 0;
 
             switch (instrucao)
             {
-                case "II":
+                case "I":
                     temp[contaJogadoresTemp] = new Jogadores();
-                    temp[contaJogadoresTemp].Ler(linha);
-                    inserirInicio(temp[contaJogadoresTemp]);
-                    contaJogadoresTemp++;
 
-                    break;
-                case "I*":
-                    temp[contaJogadoresTemp] = new Jogadores();
-                    pos = RetiraPos(linha);
-                    temp[contaJogadoresTemp].Ler(linha);
-                    Inserir(temp[contaJogadoresTemp], pos);
-                    contaJogadoresTemp++;
-
-                    break;
-                case "IF":
-                    temp[contaJogadoresTemp] = new Jogadores();
                     temp[contaJogadoresTemp].Ler(linha);
                     inserirFinal(temp[contaJogadoresTemp]);
                     contaJogadoresTemp++;
 
                     break;
-                case "R*":
-                    temp[contaJogadoresTemp] = new Jogadores();
-                    pos = RetiraPos(linha);
-                    temp[contaJogadoresTemp] = remover(pos);
-                    contaJogadoresTemp++;
 
-                    break;
-                case "RI":
-                    temp[contaJogadoresTemp] = new Jogadores();
-                    temp[contaJogadoresTemp] = removerInicio();
-                    contaJogadoresTemp++;
-
-                    break;
-                case "RF":
-                    temp[contaJogadoresTemp] = new Jogadores();
+                case "R":
                     temp[contaJogadoresTemp] = removerFinal();
                     contaJogadoresTemp++;
                     break;
@@ -116,76 +88,22 @@ class lista
 
     Jogadores removerFinal()
     {
+        Jogadores resp;
         if (n == 0)
             throw new Exception("Erro! Lista Vazia");
-        return listaJogadores[--n];
-    }
-
-    Jogadores removerInicio()
-    {
-        if (n == 0)
-            throw new Exception("Erro! Lista Vazia");
-        Jogadores resp = listaJogadores[0];
+        resp = pilhaJogadores[n + 1];
         n--;
-        for (int i = 0; i < n; i++)
-        {
-            listaJogadores[i] = listaJogadores[i + 1];
-        }
         return resp;
-    }
-
-    Jogadores remover(int pos)
-    {
-        if (n == 0 || pos < 0 || pos >= n)
-            throw new Exception("Erro! Lista Vazia");
-        Jogadores resp = listaJogadores[pos];
-        n--;
-
-        //voltando os elementos para o inicio
-        for (int i = pos; i < n; i++)
-        {
-            listaJogadores[i] = listaJogadores[i + 1];
-        }
-        return resp;
-    }
-
-    void Inserir(Jogadores jogador, int pos)
-    {
-        if (n >= listaJogadores.Length || pos < 0 || pos > n)
-            throw new Exception("Erro!");
-        //levar elementos para o fim do array
-        for (int j = n; j > pos; j--)
-        {
-            listaJogadores[j] = listaJogadores[j - 1];
-        }
-        listaJogadores[pos] = jogador;
-        n++;
     }
 
     void inserirFinal(Jogadores jogador)
     {
-        if (n >= listaJogadores.Length)
+        if (n >= pilhaJogadores.Length)
         {
             throw new Exception("Erro! Lista Cheia!");
         }
 
-        listaJogadores[n] = jogador;
-        n++;
-    }
-
-    void inserirInicio(Jogadores jogador)
-    {
-        if (n >= listaJogadores.Length)
-        {
-            throw new Exception("Erro! Lista Cheia!");
-        }
-        //movendo elementos para o fim.
-        for (int i = n; i > 0; i--)
-        {
-            listaJogadores[i] = listaJogadores[i - 1];
-        }
-
-        listaJogadores[0] = jogador;
+        pilhaJogadores[n] = jogador;
         n++;
     }
 
@@ -210,12 +128,12 @@ class lista
     // retira os dados para serem transformados em um Jogador.
 
 
-    //exibindo os jogadores da lista
-    public void ExibirLista()
+    //exibindo os jogadores da pilha
+    public void Exibir()
     {
         for (int i = 0; i < n; i++)
         {
-            listaJogadores[i].imprimir();
+            pilhaJogadores[i].imprimir();
         }
     }
 }
