@@ -1,0 +1,15 @@
+C:\Users\Droit\Desktop\CSHARP\CSharp\AEDS\exerciciosAeds\TP2 - Aluno\TP2\TP2Q06\obj\Debug\net7.0\TP2Q06.csproj.AssemblyReference.cache
+C:\Users\Droit\Desktop\CSHARP\CSharp\AEDS\exerciciosAeds\TP2 - Aluno\TP2\TP2Q06\obj\Debug\net7.0\TP2Q06.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Droit\Desktop\CSHARP\CSharp\AEDS\exerciciosAeds\TP2 - Aluno\TP2\TP2Q06\obj\Debug\net7.0\TP2Q06.AssemblyInfoInputs.cache
+C:\Users\Droit\Desktop\CSHARP\CSharp\AEDS\exerciciosAeds\TP2 - Aluno\TP2\TP2Q06\obj\Debug\net7.0\TP2Q06.AssemblyInfo.cs
+C:\Users\Droit\Desktop\CSHARP\CSharp\AEDS\exerciciosAeds\TP2 - Aluno\TP2\TP2Q06\obj\Debug\net7.0\TP2Q06.csproj.CoreCompileInputs.cache
+C:\Users\Droit\Desktop\CSHARP\CSharp\AEDS\exerciciosAeds\TP2 - Aluno\TP2\TP2Q06\bin\Debug\net7.0\TP2Q06.exe
+C:\Users\Droit\Desktop\CSHARP\CSharp\AEDS\exerciciosAeds\TP2 - Aluno\TP2\TP2Q06\bin\Debug\net7.0\TP2Q06.deps.json
+C:\Users\Droit\Desktop\CSHARP\CSharp\AEDS\exerciciosAeds\TP2 - Aluno\TP2\TP2Q06\bin\Debug\net7.0\TP2Q06.runtimeconfig.json
+C:\Users\Droit\Desktop\CSHARP\CSharp\AEDS\exerciciosAeds\TP2 - Aluno\TP2\TP2Q06\bin\Debug\net7.0\TP2Q06.dll
+C:\Users\Droit\Desktop\CSHARP\CSharp\AEDS\exerciciosAeds\TP2 - Aluno\TP2\TP2Q06\bin\Debug\net7.0\TP2Q06.pdb
+C:\Users\Droit\Desktop\CSHARP\CSharp\AEDS\exerciciosAeds\TP2 - Aluno\TP2\TP2Q06\obj\Debug\net7.0\TP2Q06.dll
+C:\Users\Droit\Desktop\CSHARP\CSharp\AEDS\exerciciosAeds\TP2 - Aluno\TP2\TP2Q06\obj\Debug\net7.0\refint\TP2Q06.dll
+C:\Users\Droit\Desktop\CSHARP\CSharp\AEDS\exerciciosAeds\TP2 - Aluno\TP2\TP2Q06\obj\Debug\net7.0\TP2Q06.pdb
+C:\Users\Droit\Desktop\CSHARP\CSharp\AEDS\exerciciosAeds\TP2 - Aluno\TP2\TP2Q06\obj\Debug\net7.0\TP2Q06.genruntimeconfig.cache
+C:\Users\Droit\Desktop\CSHARP\CSharp\AEDS\exerciciosAeds\TP2 - Aluno\TP2\TP2Q06\obj\Debug\net7.0\ref\TP2Q06.dll
