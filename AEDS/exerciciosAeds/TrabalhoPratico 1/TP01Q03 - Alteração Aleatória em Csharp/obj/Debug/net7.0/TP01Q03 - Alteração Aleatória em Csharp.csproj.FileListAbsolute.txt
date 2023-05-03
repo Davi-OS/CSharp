@@ -1,0 +1,15 @@
+C:\Users\Droit\Desktop\CSHARP\CSharp\AEDS\exerciciosAeds\Nova pasta\TP01 - Aluno\TP01Q03 - Alteração Aleatória em Csharp\bin\Debug\net7.0\TP01Q03 - Alteração Aleatória em Csharp.exe
+C:\Users\Droit\Desktop\CSHARP\CSharp\AEDS\exerciciosAeds\Nova pasta\TP01 - Aluno\TP01Q03 - Alteração Aleatória em Csharp\bin\Debug\net7.0\TP01Q03 - Alteração Aleatória em Csharp.deps.json
+C:\Users\Droit\Desktop\CSHARP\CSharp\AEDS\exerciciosAeds\Nova pasta\TP01 - Aluno\TP01Q03 - Alteração Aleatória em Csharp\bin\Debug\net7.0\TP01Q03 - Alteração Aleatória em Csharp.runtimeconfig.json
+C:\Users\Droit\Desktop\CSHARP\CSharp\AEDS\exerciciosAeds\Nova pasta\TP01 - Aluno\TP01Q03 - Alteração Aleatória em Csharp\bin\Debug\net7.0\TP01Q03 - Alteração Aleatória em Csharp.dll
+C:\Users\Droit\Desktop\CSHARP\CSharp\AEDS\exerciciosAeds\Nova pasta\TP01 - Aluno\TP01Q03 - Alteração Aleatória em Csharp\bin\Debug\net7.0\TP01Q03 - Alteração Aleatória em Csharp.pdb
+C:\Users\Droit\Desktop\CSHARP\CSharp\AEDS\exerciciosAeds\Nova pasta\TP01 - Aluno\TP01Q03 - Alteração Aleatória em Csharp\obj\Debug\net7.0\TP01Q03 - Alteração Aleatória em Csharp.csproj.AssemblyReference.cache
+C:\Users\Droit\Desktop\CSHARP\CSharp\AEDS\exerciciosAeds\Nova pasta\TP01 - Aluno\TP01Q03 - Alteração Aleatória em Csharp\obj\Debug\net7.0\TP01Q03 - Alteração Aleatória em Csharp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Droit\Desktop\CSHARP\CSharp\AEDS\exerciciosAeds\Nova pasta\TP01 - Aluno\TP01Q03 - Alteração Aleatória em Csharp\obj\Debug\net7.0\TP01Q03 - Alteração Aleatória em Csharp.AssemblyInfoInputs.cache
+C:\Users\Droit\Desktop\CSHARP\CSharp\AEDS\exerciciosAeds\Nova pasta\TP01 - Aluno\TP01Q03 - Alteração Aleatória em Csharp\obj\Debug\net7.0\TP01Q03 - Alteração Aleatória em Csharp.AssemblyInfo.cs
+C:\Users\Droit\Desktop\CSHARP\CSharp\AEDS\exerciciosAeds\Nova pasta\TP01 - Aluno\TP01Q03 - Alteração Aleatória em Csharp\obj\Debug\net7.0\TP01Q03 - Alteração Aleatória em Csharp.csproj.CoreCompileInputs.cache
+C:\Users\Droit\Desktop\CSHARP\CSharp\AEDS\exerciciosAeds\Nova pasta\TP01 - Aluno\TP01Q03 - Alteração Aleatória em Csharp\obj\Debug\net7.0\TP01Q03 - Alteração Aleatória em Csharp.dll
+C:\Users\Droit\Desktop\CSHARP\CSharp\AEDS\exerciciosAeds\Nova pasta\TP01 - Aluno\TP01Q03 - Alteração Aleatória em Csharp\obj\Debug\net7.0\refint\TP01Q03 - Alteração Aleatória em Csharp.dll
+C:\Users\Droit\Desktop\CSHARP\CSharp\AEDS\exerciciosAeds\Nova pasta\TP01 - Aluno\TP01Q03 - Alteração Aleatória em Csharp\obj\Debug\net7.0\TP01Q03 - Alteração Aleatória em Csharp.pdb
+C:\Users\Droit\Desktop\CSHARP\CSharp\AEDS\exerciciosAeds\Nova pasta\TP01 - Aluno\TP01Q03 - Alteração Aleatória em Csharp\obj\Debug\net7.0\TP01Q03 - Alteração Aleatória em Csharp.genruntimeconfig.cache
+C:\Users\Droit\Desktop\CSHARP\CSharp\AEDS\exerciciosAeds\Nova pasta\TP01 - Aluno\TP01Q03 - Alteração Aleatória em Csharp\obj\Debug\net7.0\ref\TP01Q03 - Alteração Aleatória em Csharp.dll

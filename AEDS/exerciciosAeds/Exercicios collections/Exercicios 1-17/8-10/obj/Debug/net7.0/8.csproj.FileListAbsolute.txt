@@ -1,0 +1,15 @@
+C:\Users\Droit\Desktop\CSHARP\CSharp\AEDS\exerciciosAeds\Exercicios collections\Exercicios 1-17\8\obj\Debug\net7.0\8.csproj.AssemblyReference.cache
+C:\Users\Droit\Desktop\CSHARP\CSharp\AEDS\exerciciosAeds\Exercicios collections\Exercicios 1-17\8\obj\Debug\net7.0\8.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Droit\Desktop\CSHARP\CSharp\AEDS\exerciciosAeds\Exercicios collections\Exercicios 1-17\8\obj\Debug\net7.0\8.AssemblyInfoInputs.cache
+C:\Users\Droit\Desktop\CSHARP\CSharp\AEDS\exerciciosAeds\Exercicios collections\Exercicios 1-17\8\obj\Debug\net7.0\8.AssemblyInfo.cs
+C:\Users\Droit\Desktop\CSHARP\CSharp\AEDS\exerciciosAeds\Exercicios collections\Exercicios 1-17\8\obj\Debug\net7.0\8.csproj.CoreCompileInputs.cache
+C:\Users\Droit\Desktop\CSHARP\CSharp\AEDS\exerciciosAeds\Exercicios collections\Exercicios 1-17\8\bin\Debug\net7.0\8.exe
+C:\Users\Droit\Desktop\CSHARP\CSharp\AEDS\exerciciosAeds\Exercicios collections\Exercicios 1-17\8\bin\Debug\net7.0\8.deps.json
+C:\Users\Droit\Desktop\CSHARP\CSharp\AEDS\exerciciosAeds\Exercicios collections\Exercicios 1-17\8\bin\Debug\net7.0\8.runtimeconfig.json
+C:\Users\Droit\Desktop\CSHARP\CSharp\AEDS\exerciciosAeds\Exercicios collections\Exercicios 1-17\8\bin\Debug\net7.0\8.dll
+C:\Users\Droit\Desktop\CSHARP\CSharp\AEDS\exerciciosAeds\Exercicios collections\Exercicios 1-17\8\bin\Debug\net7.0\8.pdb
+C:\Users\Droit\Desktop\CSHARP\CSharp\AEDS\exerciciosAeds\Exercicios collections\Exercicios 1-17\8\obj\Debug\net7.0\8.dll
+C:\Users\Droit\Desktop\CSHARP\CSharp\AEDS\exerciciosAeds\Exercicios collections\Exercicios 1-17\8\obj\Debug\net7.0\refint\8.dll
+C:\Users\Droit\Desktop\CSHARP\CSharp\AEDS\exerciciosAeds\Exercicios collections\Exercicios 1-17\8\obj\Debug\net7.0\8.pdb
+C:\Users\Droit\Desktop\CSHARP\CSharp\AEDS\exerciciosAeds\Exercicios collections\Exercicios 1-17\8\obj\Debug\net7.0\8.genruntimeconfig.cache
+C:\Users\Droit\Desktop\CSHARP\CSharp\AEDS\exerciciosAeds\Exercicios collections\Exercicios 1-17\8\obj\Debug\net7.0\ref\8.dll

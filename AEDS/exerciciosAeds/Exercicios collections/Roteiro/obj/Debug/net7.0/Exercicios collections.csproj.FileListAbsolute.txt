@@ -1,0 +1,15 @@
+C:\Users\Droit\Desktop\CSHARP\CSharp\AEDS\exerciciosAeds\Exercicios collections\obj\Debug\net7.0\Exercicios collections.csproj.AssemblyReference.cache
+C:\Users\Droit\Desktop\CSHARP\CSharp\AEDS\exerciciosAeds\Exercicios collections\obj\Debug\net7.0\Exercicios collections.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Droit\Desktop\CSHARP\CSharp\AEDS\exerciciosAeds\Exercicios collections\obj\Debug\net7.0\Exercicios collections.AssemblyInfoInputs.cache
+C:\Users\Droit\Desktop\CSHARP\CSharp\AEDS\exerciciosAeds\Exercicios collections\obj\Debug\net7.0\Exercicios collections.AssemblyInfo.cs
+C:\Users\Droit\Desktop\CSHARP\CSharp\AEDS\exerciciosAeds\Exercicios collections\obj\Debug\net7.0\Exercicios collections.csproj.CoreCompileInputs.cache
+C:\Users\Droit\Desktop\CSHARP\CSharp\AEDS\exerciciosAeds\Exercicios collections\bin\Debug\net7.0\Exercicios collections.exe
+C:\Users\Droit\Desktop\CSHARP\CSharp\AEDS\exerciciosAeds\Exercicios collections\bin\Debug\net7.0\Exercicios collections.deps.json
+C:\Users\Droit\Desktop\CSHARP\CSharp\AEDS\exerciciosAeds\Exercicios collections\bin\Debug\net7.0\Exercicios collections.runtimeconfig.json
+C:\Users\Droit\Desktop\CSHARP\CSharp\AEDS\exerciciosAeds\Exercicios collections\bin\Debug\net7.0\Exercicios collections.dll
+C:\Users\Droit\Desktop\CSHARP\CSharp\AEDS\exerciciosAeds\Exercicios collections\bin\Debug\net7.0\Exercicios collections.pdb
+C:\Users\Droit\Desktop\CSHARP\CSharp\AEDS\exerciciosAeds\Exercicios collections\obj\Debug\net7.0\Exercicios collections.dll
+C:\Users\Droit\Desktop\CSHARP\CSharp\AEDS\exerciciosAeds\Exercicios collections\obj\Debug\net7.0\refint\Exercicios collections.dll
+C:\Users\Droit\Desktop\CSHARP\CSharp\AEDS\exerciciosAeds\Exercicios collections\obj\Debug\net7.0\Exercicios collections.pdb
+C:\Users\Droit\Desktop\CSHARP\CSharp\AEDS\exerciciosAeds\Exercicios collections\obj\Debug\net7.0\Exercicios collections.genruntimeconfig.cache
+C:\Users\Droit\Desktop\CSHARP\CSharp\AEDS\exerciciosAeds\Exercicios collections\obj\Debug\net7.0\ref\Exercicios collections.dll
