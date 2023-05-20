@@ -66,7 +66,7 @@ class Program
 
         // Sentinela no final 
 
-        ArrayEsq[nEsq] = ArrayDir[nDir] = 0x7FFFFFFF;
+        // ArrayEsq[nEsq] = ArrayDir[nDir] = 0x7FFFFFFF;
     }
 }
 
