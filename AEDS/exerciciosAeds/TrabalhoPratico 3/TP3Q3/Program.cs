@@ -36,37 +36,89 @@ class Program
             linha = ConverteCaracterEspecial(Console.ReadLine());
         }
 
-        OrdenarPelaIdade(time, n, 0);
+        // Criando a class ordenacao
+        Ordenacao listaJogadores = new Ordenacao();
+        listaJogadores.Preencher(time, n);
 
+        //exibindo os Jogadores na Ordenacao
+        listaJogadores.Exibir();
+    }
+}
+
+class Ordenacao
+{
+    public Jogadores[] listaJogadores;
+    public int n;
+
+    public void Preencher(Jogadores[] jogadoresIniciais, int qnt)
+    {
+        listaJogadores = jogadoresIniciais;
+        n = qnt;
+        OrdenarPelaIdade(0, n);
+    }
+    void OrdenarPelaIdade(int esq, int dir)
+    {
+        if (esq < dir)
+        {
+            int meio = (esq + dir) / 2;
+            OrdenarPelaIdade(esq, meio);
+            OrdenarPelaIdade(meio + 1, dir);
+            Intercalar(esq, meio, dir);
+        }
     }
 
-    public static void OrdenarPelaIdade(Jogadores[] time, int n, int esqu)
+    void Intercalar(int esq, int meio, int dir)
     {
-        if (esqu < n)
-        {
-            int meio = (esqu + n) / 2;
-            OrdenarPelaIdade(time, esqu, meio);
-            OrdenarPelaIdade(time, meio + 1, n);
-            intercalar(esqu, meio, n);
-        }
-        //imprimindo
-        for (int i = 0; i < n; i++)
-        {
-            time[i].imprimir();
-        }
-    }
-
-    public static void intercalar(int esqu, int meio, int dir)
-    {
-        int nEsq = (meio + 1) - esqu;
+        // definindo o tamanho dos subAarrays
+        int nEsq = (meio + 1) - esq;
         int nDir = dir - meio;
 
-        Jogadores[] ArrayEsq = new Jogadores[nEsq + 1];
-        Jogadores[] ArrayDir = new Jogadores[nDir + 1];
+        Jogadores[] arrayEsq = new Jogadores[nEsq + 1];
+        Jogadores[] arrayDir = new Jogadores[nDir + 1];
 
-        // Sentinela no final 
+        //sentinela
 
-        // ArrayEsq[nEsq] = ArrayDir[nDir] = 0x7FFFFFFF;
+        Jogadores Sentinela = new Jogadores();
+        Sentinela.Ler("000,Sentinela,Sentinela.png,31/12/9999,Sentinela,001,[00000]");
+        
+        arrayEsq[nEsq] = new Jogadores();
+        arrayDir[nDir] = new Jogadores();
+
+        arrayEsq[nEsq] = arrayDir[nDir] = Sentinela;
+
+        int iEsq, iDir, i;
+
+        //inicializando o Subarray
+
+        for (iEsq = 0; iEsq < nEsq; iEsq++)
+        {
+            arrayEsq[iEsq] = new Jogadores();
+            arrayEsq[iEsq] = listaJogadores[esq + iEsq];
+        }
+
+        //inicializando o Subarray
+
+        for (iDir = 0; iDir < nDir; iDir++)
+        {
+            arrayDir[iDir] = new Jogadores();
+            arrayEsq[iDir] = listaJogadores[(meio + 1) + iDir];
+        }
+
+        // interpolacão 
+
+        for (iEsq = iDir = 0, i = iEsq; i <= dir; i++)
+        {
+            listaJogadores[i] = (arrayEsq[iEsq].nascimento <= arrayDir[iDir].nascimento) ? arrayEsq[iEsq++] : arrayDir[iDir++];
+        }
+
+    }
+
+    public void Exibir()
+    {
+        for (int i = 0; i < n; i++)
+        {
+            listaJogadores[i].imprimir();
+        }
     }
 }
 
@@ -74,8 +126,8 @@ class Jogadores
 {
     string nome;
     string foto;
-    DateTime nascimento = new DateTime();
-    public int id;
+    public DateTime nascimento = new DateTime();
+    int id;
 
     public int[] times;
 
@@ -116,6 +168,7 @@ class Jogadores
                 indexTimes++;
             }
         }
+
         //                  *não funciona no verde
         // extraindo os valores TIMES da string pub in  *não funciona no verde
         //         string[] strTEMP;
@@ -131,7 +184,6 @@ class Jogadores
         //             times[i] = int.Parse(timeStr[i]);
         //         }
     }
-
 
     public void imprimir()
     {

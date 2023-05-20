@@ -36,31 +36,64 @@ class Program
             linha = ConverteCaracterEspecial(Console.ReadLine());
         }
 
-        OrdenarPeloId(time, n);
+        // Criando a class ordenacao
+        Ordenacao Time = new Ordenacao();
+        Time.Preencher(time, n);
+
+        //exibindo os Jogadores na Ordenacao
+        Time.Exibir();
+    }
+}
+
+class Ordenacao
+{
+    public Jogadores[] Time;
+    public int n;
+
+
+
+    //Jogadores temporarios necessarios para realiar as operações de  Remoçãoo e inserção na Ordenacao
+    Jogadores[] temp = new Jogadores[10];
+    int contaJogadoresTemp = 0;
+
+    public void Preencher(Jogadores[] jogadoresIniciais, int qnt)
+    {
+        Time = jogadoresIniciais;
+        n = qnt;
+        OrdenarPeloId();
+    }
+    void OrdenarPeloId()
+    {
+        for (int i = 0; i < (n - 1); i++)
+        {
+            int menor = i;
+            for (int j = (i + 1); j < n; j++)
+            {
+                if (Time[menor].id > Time[j].id)
+                {
+                    menor = j;
+                }
+            }
+            swap(menor, i);
+        }
+        //imprimindo
 
     }
 
-    public static void OrdenarPeloId(Jogadores[] time, int n)
+    void swap(int menor, int index)
+    {
+        Jogadores temp = Time[menor];
+        Time[menor] = Time[index];
+        Time[index] = temp;
+    }
+    
+    public void Exibir()
     {
         for (int i = 0; i < n; i++)
         {
-            Jogadores temp = time[i];
-            int j = i - 1;
-            while ((j >= 0) && (time[j].id > temp.id))
-            {
-                time[j + 1] = time[j];
-                j--;
-            }
-            time[j + 1] = temp;
-        }
-
-        //imprimindo
-        for (int i = 0; i < n; i++)
-        {
-            time[i].imprimir();
+            Time[i].imprimir();
         }
     }
-
 }
 
 class Jogadores
@@ -109,6 +142,7 @@ class Jogadores
                 indexTimes++;
             }
         }
+
         //                  *não funciona no verde
         // extraindo os valores TIMES da string pub in  *não funciona no verde
         //         string[] strTEMP;
@@ -124,8 +158,6 @@ class Jogadores
         //             times[i] = int.Parse(timeStr[i]);
         //         }
     }
-
-
 
     public void imprimir()
     {

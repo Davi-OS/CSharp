@@ -36,36 +36,56 @@ class Program
             linha = ConverteCaracterEspecial(Console.ReadLine());
         }
 
-        OrdenarPeloId(time, n);
+        // Criando a class ordenacao
+        Ordenacao listaJogadores = new Ordenacao();
+        listaJogadores.Preencher(time, n);
 
+        //exibindo os Jogadores na Ordenacao
+        listaJogadores.Exibir();
     }
+}
 
-    public static void OrdenarPeloId(Jogadores[] time, int n)
+class Ordenacao
+{
+    public Jogadores[] listaJogadores;
+    public int n;
+    
+    public void Preencher(Jogadores[] jogadoresIniciais, int qnt)
+    {
+        listaJogadores = jogadoresIniciais;
+        n = qnt;
+        OrdenarPeloId();
+    }
+    void OrdenarPeloId()
     {
         for (int i = 0; i < (n - 1); i++)
         {
             int menor = i;
             for (int j = (i + 1); j < n; j++)
             {
-                if (time[menor].id > time[j].id)
+                if (listaJogadores[menor].id > listaJogadores[j].id)
                 {
                     menor = j;
                 }
             }
-            swap(menor, i, time);
+            swap(menor, i);
         }
-        //imprimindo
-        for (int i = 0; i < n; i++)
-        {
-            time[i].imprimir();
-        }
+
     }
 
-    public static void swap(int menor, int index, Jogadores[] time)
+    void swap(int menor, int index)
     {
-        Jogadores temp = time[menor];
-        time[menor] = time[index];
-        time[index] = temp;
+        Jogadores temp = listaJogadores[menor];
+        listaJogadores[menor] = listaJogadores[index];
+        listaJogadores[index] = temp;
+    }
+    
+    public void Exibir()
+    {
+        for (int i = 0; i < n; i++)
+        {
+            listaJogadores[i].imprimir();
+        }
     }
 }
 
@@ -115,6 +135,7 @@ class Jogadores
                 indexTimes++;
             }
         }
+
         //                  *não funciona no verde
         // extraindo os valores TIMES da string pub in  *não funciona no verde
         //         string[] strTEMP;
@@ -131,7 +152,6 @@ class Jogadores
         //         }
     }
 
-    
     public void imprimir()
     {
         //tratando o Array "Times"
