@@ -37,23 +37,23 @@ class Program
         }
 
         // Criando a class ordenacao
-        Ordenacao Time = new Ordenacao();
-        Time.Preencher(time, n);
+        Ordenacao jogadores = new Ordenacao();
+        jogadores.Preencher(time, n);
 
         //exibindo os Jogadores na Ordenacao
-        Time.Exibir();
+        jogadores.Exibir();
     }
 }
 
 class Ordenacao
 {
-    public Jogadores[] Time;
+    public Jogadores[] jogadores;
     public int n;
 
 
     public void Preencher(Jogadores[] jogadoresIniciais, int qnt)
     {
-        Time = jogadoresIniciais;
+        jogadores = jogadoresIniciais;
         n = qnt;
         OrdenarPeloNome(0, n);
     }
@@ -61,20 +61,20 @@ class Ordenacao
     {
         int i = esq, j = dir;
         Jogadores pivo = new Jogadores();
-        pivo = Time[(esq + dir) / 2];
+        pivo = jogadores[(esq + dir) / 2];
         while (i <= j)
         {
-            int indexI = string.Compare(Time[i].nome, pivo.nome);
+            int indexI = string.Compare(jogadores[i].nome, pivo.nome);
             while (indexI < 0)
             {
                 i++;
-                indexI = string.Compare(Time[i].nome, pivo.nome);
+                indexI = string.Compare(jogadores[i].nome, pivo.nome);
             }
-            int indexJ = string.Compare(Time[j].nome, pivo.nome);
+            int indexJ = string.Compare(jogadores[j].nome, pivo.nome);
             while (indexJ > 0)
             {
                 j--;
-                indexJ = string.Compare(Time[j].nome, pivo.nome);
+                indexJ = string.Compare(jogadores[j].nome, pivo.nome);
             }
             if (i <= j)
             {
@@ -97,16 +97,16 @@ class Ordenacao
     void swap(int menor, int index)
     {
         Jogadores temp = new Jogadores();
-        temp = Time[menor];
-        Time[menor] = Time[index];
-        Time[index] = temp;
+        temp = jogadores[menor];
+        jogadores[menor] = jogadores[index];
+        jogadores[index] = temp;
     }
 
     public void Exibir()
     {
         for (int i = 0; i < n; i++)
         {
-            Time[i].imprimir();
+            jogadores[i].imprimir();
         }
     }
 }
