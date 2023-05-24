@@ -25,7 +25,7 @@ class Program
 
     public static void Main(string[] args)
     {
-        Jogadores[] time = new Jogadores[30];
+        Jogadores[] time = new Jogadores[15];
         int n = 0;
         string linha = ConverteCaracterEspecial(Console.ReadLine());
         while (linha != "FIM")
@@ -51,42 +51,57 @@ class Ordenacao
     public int n;
 
 
-
-    //Jogadores temporarios necessarios para realiar as operações de  Remoçãoo e inserção na Ordenacao
-    Jogadores[] temp = new Jogadores[10];
-    int contaJogadoresTemp = 0;
-
     public void Preencher(Jogadores[] jogadoresIniciais, int qnt)
     {
         Time = jogadoresIniciais;
         n = qnt;
-        OrdenarPeloId();
+        OrdenarPeloNome(0, n);
     }
-    void OrdenarPeloId()
+    void OrdenarPeloNome(int esq, int dir)
     {
-        for (int i = 0; i < (n - 1); i++)
+        int i = esq, j = dir;
+        Jogadores pivo = new Jogadores();
+        pivo = Time[(esq + dir) / 2];
+        while (i <= j)
         {
-            int menor = i;
-            for (int j = (i + 1); j < n; j++)
+            int indexI = string.Compare(Time[i].nome, pivo.nome);
+            while (indexI < 0)
             {
-                if (Time[menor].id > Time[j].id)
-                {
-                    menor = j;
-                }
+                i++;
+                indexI = string.Compare(Time[i].nome, pivo.nome);
             }
-            swap(menor, i);
+            int indexJ = string.Compare(Time[j].nome, pivo.nome);
+            while (indexJ > 0)
+            {
+                j--;
+                indexJ = string.Compare(Time[j].nome, pivo.nome);
+            }
+            if (i <= j)
+            {
+                swap(i, j);
+                i++;
+                j--;
+            }
         }
-        //imprimindo
 
+        if (esq < j)
+        {
+            OrdenarPeloNome(esq, j);
+        }
+        if (i < dir)
+        {
+            OrdenarPeloNome(i, dir);
+        }
     }
 
     void swap(int menor, int index)
     {
-        Jogadores temp = Time[menor];
+        Jogadores temp = new Jogadores();
+        temp = Time[menor];
         Time[menor] = Time[index];
         Time[index] = temp;
     }
-    
+
     public void Exibir()
     {
         for (int i = 0; i < n; i++)
@@ -98,7 +113,7 @@ class Ordenacao
 
 class Jogadores
 {
-    string nome;
+    public string nome;
     string foto;
     DateTime nascimento = new DateTime();
     public int id;

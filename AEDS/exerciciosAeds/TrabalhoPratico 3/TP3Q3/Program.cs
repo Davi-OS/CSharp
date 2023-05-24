@@ -36,95 +36,79 @@ class Program
             linha = ConverteCaracterEspecial(Console.ReadLine());
         }
 
-        // Criando a class ordenacao
-        Ordenacao listaJogadores = new Ordenacao();
-        listaJogadores.Preencher(time, n);
+        Jogadores[] jogadoresOrdenados = MergeSort(time);
 
-        //exibindo os Jogadores na Ordenacao
-        listaJogadores.Exibir();
     }
-}
-
-class Ordenacao
-{
-    public Jogadores[] listaJogadores;
-    public int n;
-
-    public void Preencher(Jogadores[] jogadoresIniciais, int qnt)
+    static Jogadores[] MergeSort(Jogadores[] array)
     {
-        listaJogadores = jogadoresIniciais;
-        n = qnt;
-        OrdenarPelaIdade(0, n);
+        if (array.Length <= 1)
+        {
+            return array;
+        }
+
+        int middle = array.Length / 2;
+        Jogadores[] leftArray = new Jogadores[middle];
+        Jogadores[] rightArray = new Jogadores[array.Length - middle];
+
+        Array.Copy(array, 0, leftArray, 0, middle);
+        Array.Copy(array, middle, rightArray, 0, array.Length - middle);
+
+        leftArray = MergeSort(leftArray);
+        rightArray = MergeSort(rightArray);
+
+        return Merge(leftArray, rightArray);
     }
-    void OrdenarPelaIdade(int esq, int dir)
+
+
+
+    static Jogadores[] Merge(Jogadores[] leftArray, Jogadores[] rightArray)
     {
-        if (esq < dir)
+        int leftLength = leftArray.Length;
+        int rightLength = rightArray.Length;
+        int totalLength = leftLength + rightLength;
+
+        Jogadores[] mergedArray = new Jogadores[totalLength];
+
+        int leftIndex = 0, rightIndex = 0, mergedIndex = 0;
+
+        while (leftIndex < leftLength && rightIndex < rightLength)
         {
-            int meio = (esq + dir) / 2;
-            OrdenarPelaIdade(esq, meio);
-            OrdenarPelaIdade(meio + 1, dir);
-            Intercalar(esq, meio, dir);
+            if (leftArray[leftIndex].nascimento <= rightArray[rightIndex].nascimento)
+            {
+                mergedArray[mergedIndex] = leftArray[leftIndex];
+                leftIndex++;
+            }
+            else
+            {
+                mergedArray[mergedIndex] = rightArray[rightIndex];
+                rightIndex++;
+            }
+
+            mergedIndex++;
         }
+
+        while (leftIndex < leftLength)
+        {
+            mergedArray[mergedIndex] = leftArray[leftIndex];
+            leftIndex++;
+            mergedIndex++;
+        }
+
+        while (rightIndex < rightLength)
+        {
+            mergedArray[mergedIndex] = rightArray[rightIndex];
+            rightIndex++;
+            mergedIndex++;
+        }
+
+        return mergedArray;
     }
 
-    void Intercalar(int esq, int meio, int dir)
-    {
-        // definindo o tamanho dos subAarrays
-        int nEsq = (meio + 1) - esq;
-        int nDir = dir - meio;
-
-        Jogadores[] arrayEsq = new Jogadores[nEsq + 1];
-        Jogadores[] arrayDir = new Jogadores[nDir + 1];
-
-        //sentinela
-
-        Jogadores Sentinela = new Jogadores();
-        Sentinela.Ler("000,Sentinela,Sentinela.png,31/12/9999,Sentinela,001,[00000]");
-        
-        arrayEsq[nEsq] = new Jogadores();
-        arrayDir[nDir] = new Jogadores();
-
-        arrayEsq[nEsq] = arrayDir[nDir] = Sentinela;
-
-        int iEsq, iDir, i;
-
-        //inicializando o Subarray
-
-        for (iEsq = 0; iEsq < nEsq; iEsq++)
-        {
-            arrayEsq[iEsq] = new Jogadores();
-            arrayEsq[iEsq] = listaJogadores[esq + iEsq];
-        }
-
-        //inicializando o Subarray
-
-        for (iDir = 0; iDir < nDir; iDir++)
-        {
-            arrayDir[iDir] = new Jogadores();
-            arrayEsq[iDir] = listaJogadores[(meio + 1) + iDir];
-        }
-
-        // interpolacão 
-
-        for (iEsq = iDir = 0, i = iEsq; i <= dir; i++)
-        {
-            listaJogadores[i] = (arrayEsq[iEsq].nascimento <= arrayDir[iDir].nascimento) ? arrayEsq[iEsq++] : arrayDir[iDir++];
-        }
-
-    }
-
-    public void Exibir()
-    {
-        for (int i = 0; i < n; i++)
-        {
-            listaJogadores[i].imprimir();
-        }
-    }
 }
 
 class Jogadores
 {
-    string nome;
+    public string nome;
     string foto;
     public DateTime nascimento = new DateTime();
     int id;
