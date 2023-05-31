@@ -25,23 +25,40 @@ class Program
 
     public static void Main(string[] args)
     {
-        Jogadores[] time = new Jogadores[30];
-        int n = 0;
-        string linha = ConverteCaracterEspecial(Console.ReadLine());
-        while (linha != "FIM")
+        int n1, n2, r = 2, final = 1;
+        Console.WriteLine("Digite dois números inteiros: ");
+        n1 = int.Parse(Console.ReadLine());
+        n2 = int.Parse(Console.ReadLine());
+        while (n1 > 1 || n2 > 1)
         {
-            time[n] = new Jogadores();
-            time[n].Ler(linha);
-            n++;
-            linha = ConverteCaracterEspecial(Console.ReadLine());
+            if ((n1 % r == 0) && (n2 % r == 0))
+            {
+                final = final * r;
+                n1 = n1 / r;
+                n2 = n2 / r;
+            }
+            else
+            {
+                if ((n1 % r == 0))
+                {
+                    final = final * r;
+                    n1 = n1 / r;
+                }
+                else
+                {
+                    if ((n2 % r == 0))
+                    {
+                        final = final * r;
+                        n2 = n2 / r;
+                    }
+                    else
+                        r++;
+                }
+            }
+            Console.WriteLine(n1 + ", " + n2 + " | " + r);
         }
-
-        // Criando a class ordenacao
-        Ordenacao listaJogadores = new Ordenacao();
-        listaJogadores.Preencher(time, n);
-
-        //exibindo os Jogadores na Ordenacao
-        listaJogadores.Exibir();
+        Console.WriteLine("Final: " + final);
+        Console.ReadKey();
     }
 }
 
@@ -49,7 +66,7 @@ class Ordenacao
 {
     public Jogadores[] listaJogadores;
     public int n;
-    
+
     public void Preencher(Jogadores[] jogadoresIniciais, int qnt)
     {
         listaJogadores = jogadoresIniciais;
@@ -79,7 +96,7 @@ class Ordenacao
         listaJogadores[menor] = listaJogadores[index];
         listaJogadores[index] = temp;
     }
-    
+
     public void Exibir()
     {
         for (int i = 0; i < n; i++)

@@ -36,75 +36,81 @@ class Program
             linha = ConverteCaracterEspecial(Console.ReadLine());
         }
 
-        Jogadores[] jogadoresOrdenados = MergeSort(time);
+        MergeSort(time, 0, n - 1);
 
-    }
-    static Jogadores[] MergeSort(Jogadores[] array)
-    {
-        if (array.Length <= 1)
+          for (int i = 0; i < n; i++)
         {
-            return array;
+            time[i].imprimir();
         }
 
-        int middle = array.Length / 2;
-        Jogadores[] leftArray = new Jogadores[middle];
-        Jogadores[] rightArray = new Jogadores[array.Length - middle];
-
-        Array.Copy(array, 0, leftArray, 0, middle);
-        Array.Copy(array, middle, rightArray, 0, array.Length - middle);
-
-        leftArray = MergeSort(leftArray);
-        rightArray = MergeSort(rightArray);
-
-        return Merge(leftArray, rightArray);
+    }
+    public static void MergeSort(Jogadores[] jogadores, int left, int right)
+    {
+        if (left < right)
+        {
+            int middle = (left + right) / 2;
+            MergeSort(jogadores, left, middle);
+            MergeSort(jogadores, middle + 1, right);
+            Merge(jogadores, left, middle, right);
+        }
     }
 
-
-
-    static Jogadores[] Merge(Jogadores[] leftArray, Jogadores[] rightArray)
+    public static void Merge(Jogadores[] jogadores, int left, int middle, int right)
     {
-        int leftLength = leftArray.Length;
-        int rightLength = rightArray.Length;
-        int totalLength = leftLength + rightLength;
+        int n1 = middle - left + 1;
+        int n2 = right - middle;
 
-        Jogadores[] mergedArray = new Jogadores[totalLength];
+        // Criar arrays temporários
+        Jogadores[] leftArray = new Jogadores[n1];
+        Jogadores[] rightArray = new Jogadores[n2];
 
-        int leftIndex = 0, rightIndex = 0, mergedIndex = 0;
-
-        while (leftIndex < leftLength && rightIndex < rightLength)
+        // Copiar dados para os arrays temporários
+        for (int i = 0; i < n1; i++)
         {
-            if (leftArray[leftIndex].nascimento <= rightArray[rightIndex].nascimento)
+            leftArray[i] = jogadores[left + i];
+        }
+        for (int j = 0; j < n2; j++)
+        {
+            rightArray[j] = jogadores[middle + 1 + j];
+        }
+
+        // Realizar o merge dos arrays temporários de volta ao array original
+        int k = left;
+        int i1 = 0;
+        int i2 = 0;
+        while (i1 < n1 && i2 < n2)
+        {
+            if (leftArray[i1].nascimento <= rightArray[i2].nascimento)
             {
-                mergedArray[mergedIndex] = leftArray[leftIndex];
-                leftIndex++;
+                jogadores[k] = leftArray[i1];
+                i1++;
             }
             else
             {
-                mergedArray[mergedIndex] = rightArray[rightIndex];
-                rightIndex++;
+                jogadores[k] = rightArray[i2];
+                i2++;
             }
-
-            mergedIndex++;
+            k++;
         }
 
-        while (leftIndex < leftLength)
+        // Copiar os elementos restantes do array esquerdo, se houver
+        while (i1 < n1)
         {
-            mergedArray[mergedIndex] = leftArray[leftIndex];
-            leftIndex++;
-            mergedIndex++;
+            jogadores[k] = leftArray[i1];
+            i1++;
+            k++;
         }
 
-        while (rightIndex < rightLength)
+        // Copiar os elementos restantes do array direito, se houver
+        while (i2 < n2)
         {
-            mergedArray[mergedIndex] = rightArray[rightIndex];
-            rightIndex++;
-            mergedIndex++;
+            jogadores[k] = rightArray[i2];
+            i2++;
+            k++;
         }
-
-        return mergedArray;
     }
-
 }
+
 
 class Jogadores
 {

@@ -1,191 +1,162 @@
 ﻿using System;
-using System.Collections;
-using System.Text;
-using System.IO;
+using System.Collections.Generic;
 
-class Program
+namespace TP03Q04
 {
-    // metodo para testar apenas uma linha de entrada
-    // public static void Main(string[] args)
-    // {
-    //     Jogadores jogador = new Jogadores();
-    //     string linha = Console.ReadLine();
-    //     jogador.Ler(linha);
-    //     jogador.imprimir();
-    // }
-
-    public static string ConverteCaracterEspecial(string s)
+    class Program
     {
-        string texto = s;
-        byte[] bytes = Encoding.UTF8.GetBytes(texto);
-        byte[] dadosUTF8 = Encoding.Convert(Encoding.Default, Encoding.UTF8, bytes);
-        string textoCodificado = Encoding.UTF8.GetString(dadosUTF8);
-        return textoCodificado;
-    }
-
-    public static void Main(string[] args)
-    {
-        Jogadores[] time = new Jogadores[15];
-        int n = 0;
-        string linha = ConverteCaracterEspecial(Console.ReadLine());
-        while (linha != "FIM")
+        static void Main(string[] args)
         {
-            time[n] = new Jogadores();
-            time[n].Ler(linha);
-            n++;
-            linha = ConverteCaracterEspecial(Console.ReadLine());
+            List<Jogador> jogadores = new List<Jogador>();
+            string leitura = Console.ReadLine();
+            int n = 0;
+            while (leitura != "FIM")
+            {
+                Jogador jogador = new Jogador();
+                jogador.ler(leitura);
+                jogadores.Add(jogador);
+                leitura = Console.ReadLine();
+                n++;
+            }
+
+            QuickSort(jogadores, 0, n - 1);
+
+            for (int i = 0; i < n; i++)
+            {
+                jogadores[i].imprimir();
+            }
         }
 
-        // Criando a class ordenacao
-        Ordenacao jogadores = new Ordenacao();
-        jogadores.Preencher(time, n);
-
-        //exibindo os Jogadores na Ordenacao
-        jogadores.Exibir();
-    }
-}
-
-class Ordenacao
-{
-    public Jogadores[] jogadores;
-    public int n;
-
-
-    public void Preencher(Jogadores[] jogadoresIniciais, int qnt)
-    {
-        jogadores = jogadoresIniciais;
-        n = qnt;
-        OrdenarPeloNome(0, n);
-    }
-    void OrdenarPeloNome(int esq, int dir)
-    {
-        int i = esq, j = dir;
-        Jogadores pivo = new Jogadores();
-        pivo = jogadores[(esq + dir) / 2];
-        while (i <= j)
+        public static void QuickSort(List<Jogador> jogadores, int left, int right)
         {
-            int indexI = string.Compare(jogadores[i].nome, pivo.nome);
-            while (indexI < 0)
+            if (left < right)
             {
+                Jogador pivot = jogadores[right];
+                int i = left - 1;
+
+                for (int j = left; j < right; j++)
+                {
+                    int comparacao = 0;
+
+                    comparacao = string.Compare(jogadores[j].nome, pivot.nome);
+
+                    if (comparacao <= 0)
+                    {
+                        i++;
+                        Swap(jogadores, i, j);
+                    }
+                }
+
+                Swap(jogadores, i + 1, right);
+
+                int pivotIndex = i + 1;
+                QuickSort(jogadores, left, pivotIndex - 1);
+                QuickSort(jogadores, pivotIndex + 1, right);
+            }
+        }
+
+        public static void Swap(List<Jogador> jogadores, int i, int j)
+        {
+            Jogador temp = jogadores[i];
+            jogadores[i] = jogadores[j];
+            jogadores[j] = temp;
+        }
+
+        public class Jogador
+        {
+            public string nome = "";
+            public string foto = "";
+            public DateTime nascimento = DateTime.Parse("7/07/1994");
+            public int id = 0;
+            public int[] time;
+
+            public void imprimir()
+            {
+                Console.Write($"{id} {nome} {nascimento.ToString("d/MM/yyyy")} {foto} ");
+                Console.Write('(');
+                for (int i = 0; i < this.time.Length - 1; i++)
+                {
+                    Console.Write($"{this.time[i]}, ");
+                }
+                Console.Write(this.time[this.time.Length - 1]);
+                Console.WriteLine(')');
+            }
+            public void ler(string leitura)
+            {
+                int i = 0, cont = 1; string data = "", time = "", numero = "";
+                while (leitura[i] != ',')
+                {
+                    i++;
+                }
                 i++;
-                indexI = string.Compare(jogadores[i].nome, pivo.nome);
-            }
-            int indexJ = string.Compare(jogadores[j].nome, pivo.nome);
-            while (indexJ > 0)
-            {
-                j--;
-                indexJ = string.Compare(jogadores[j].nome, pivo.nome);
-            }
-            if (i <= j)
-            {
-                swap(i, j);
+                while (leitura[i] != ',')
+                {
+                    nome += leitura[i];
+                    i++;
+                }
                 i++;
-                j--;
+                while (leitura[i] != ',')
+                {
+                    foto += leitura[i];
+                    i++;
+                }
+                i++;
+                while (leitura[i] != ',')
+                {
+                    data += leitura[i];
+                    i++;
+                }
+                nascimento = DateTime.Parse(data);
+                i++;
+                while (leitura[i] != ',')
+                {
+                    i++;
+                }
+                i++;
+                while (leitura[i] != ',')
+                {
+                    numero += leitura[i];
+                    i++;
+                }
+                id = int.Parse(numero);
+                i++;
+                while (leitura[i] != '[')
+                {
+                    i++;
+                }
+                i++;
+                while (leitura[i] != ']')
+                {
+                    time += leitura[i];
+                    if (leitura[i] == ',')
+                    {
+                        cont++;
+                    }
+                    i++;
+                }
+                this.time = new int[cont];
+                numero = ""; i = 0;
+                for (int j = 0; j <= time.Length; j++)
+                {
+                    if (j != time.Length)
+                    {
+                        if (time[j] != ',' && time[j] != ' ')
+                        {
+                            numero += time[j];
+                        }
+                        else if (numero != "")
+                        {
+                            this.time[i] = int.Parse(numero);
+                            numero = "";
+                            i++;
+                        }
+                    }
+                    else
+                    {
+                        this.time[i] = int.Parse(numero);
+                    }
+                }
             }
         }
-
-        if (esq < j)
-        {
-            OrdenarPeloNome(esq, j);
-        }
-        if (i < dir)
-        {
-            OrdenarPeloNome(i, dir);
-        }
-    }
-
-    void swap(int menor, int index)
-    {
-        Jogadores temp = new Jogadores();
-        temp = jogadores[menor];
-        jogadores[menor] = jogadores[index];
-        jogadores[index] = temp;
-    }
-
-    public void Exibir()
-    {
-        for (int i = 0; i < n; i++)
-        {
-            jogadores[i].imprimir();
-        }
-    }
-}
-
-class Jogadores
-{
-    public string nome;
-    string foto;
-    DateTime nascimento = new DateTime();
-    public int id;
-
-    public int[] times;
-
-    public void Ler(string linha)
-    {
-        string[] str;
-        str = linha.Split(',');
-        id = int.Parse(str[5]);
-        nome = str[1];
-        foto = str[2];
-        nascimento = DateTime.Parse(str[3]);
-
-        // extraindo os valores TIMES da string pub in
-        string[] strTEMP;
-        string[] timeStr;
-        char[] delimitadores = { '[', ']' };
-        char[] delimitadores2 = { ',', ' ' };
-        strTEMP = linha.Split(delimitadores);
-        timeStr = strTEMP[1].Split(delimitadores2);
-        int contaTimes = 0;
-        int number;
-        for (int i = 0; i < timeStr.Length; i++)
-        {
-            bool success = int.TryParse(timeStr[i], out number);
-            if (success == true)
-            {
-                contaTimes++;
-            }
-        }
-        times = new int[contaTimes];
-        int indexTimes = 0;
-        for (int i = 0; i < timeStr.Length; i++)
-        {
-            bool success = int.TryParse(timeStr[i], out number);
-            if (success == true)
-            {
-                times[indexTimes] = int.Parse(timeStr[i]);
-                indexTimes++;
-            }
-        }
-
-        //                  *não funciona no verde
-        // extraindo os valores TIMES da string pub in  *não funciona no verde
-        //         string[] strTEMP;
-        //         string[] timeStr;
-        //         char[] delimitadores = { '[', ']' };
-        //         strTEMP = linha.Split(delimitadores);
-        //         timeStr = strTEMP[1].Split(", ");
-
-        //         //criando o "times"
-        //         times = new int[timeStr.Length];
-        //         for (int i = 0; i < timeStr.Length; i++)
-        //         {
-        //             times[i] = int.Parse(timeStr[i]);
-        //         }
-    }
-
-    public void imprimir()
-    {
-        //tratando o Array "Times"
-        string strtimes = "";
-        for (int i = 0; i < times.Length - 1; i++)
-        {
-            strtimes += times[i] + ", ";
-        }
-        strtimes += times[times.Length - 1];
-
-        // tratando o DateTime
-        string data = nascimento.ToString("d/MM/yyyy");
-        Console.WriteLine("{0} {1} {2} {3} ({4})", id, nome, data, foto, strtimes);
     }
 }
