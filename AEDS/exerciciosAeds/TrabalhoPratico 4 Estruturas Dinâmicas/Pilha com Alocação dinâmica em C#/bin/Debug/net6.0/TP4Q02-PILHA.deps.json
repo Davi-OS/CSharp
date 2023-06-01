@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "TP4Q02-PILHA/1.0.0": {
+        "runtime": {
+          "TP4Q02-PILHA.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "TP4Q02-PILHA/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

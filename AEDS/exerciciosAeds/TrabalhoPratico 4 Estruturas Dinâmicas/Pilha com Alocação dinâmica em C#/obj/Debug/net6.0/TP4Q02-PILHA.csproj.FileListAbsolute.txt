@@ -1,0 +1,15 @@
+C:\Users\davio\OneDrive\Documentos\CloneGit\CSHARP\CSharp\AEDS\exerciciosAeds\TrabalhoPratico 4\TP4Q02-PILHA\bin\Debug\net6.0\TP4Q02-PILHA.exe
+C:\Users\davio\OneDrive\Documentos\CloneGit\CSHARP\CSharp\AEDS\exerciciosAeds\TrabalhoPratico 4\TP4Q02-PILHA\bin\Debug\net6.0\TP4Q02-PILHA.deps.json
+C:\Users\davio\OneDrive\Documentos\CloneGit\CSHARP\CSharp\AEDS\exerciciosAeds\TrabalhoPratico 4\TP4Q02-PILHA\bin\Debug\net6.0\TP4Q02-PILHA.runtimeconfig.json
+C:\Users\davio\OneDrive\Documentos\CloneGit\CSHARP\CSharp\AEDS\exerciciosAeds\TrabalhoPratico 4\TP4Q02-PILHA\bin\Debug\net6.0\TP4Q02-PILHA.dll
+C:\Users\davio\OneDrive\Documentos\CloneGit\CSHARP\CSharp\AEDS\exerciciosAeds\TrabalhoPratico 4\TP4Q02-PILHA\bin\Debug\net6.0\TP4Q02-PILHA.pdb
+C:\Users\davio\OneDrive\Documentos\CloneGit\CSHARP\CSharp\AEDS\exerciciosAeds\TrabalhoPratico 4\TP4Q02-PILHA\obj\Debug\net6.0\TP4Q02-PILHA.csproj.AssemblyReference.cache
+C:\Users\davio\OneDrive\Documentos\CloneGit\CSHARP\CSharp\AEDS\exerciciosAeds\TrabalhoPratico 4\TP4Q02-PILHA\obj\Debug\net6.0\TP4Q02-PILHA.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\davio\OneDrive\Documentos\CloneGit\CSHARP\CSharp\AEDS\exerciciosAeds\TrabalhoPratico 4\TP4Q02-PILHA\obj\Debug\net6.0\TP4Q02-PILHA.AssemblyInfoInputs.cache
+C:\Users\davio\OneDrive\Documentos\CloneGit\CSHARP\CSharp\AEDS\exerciciosAeds\TrabalhoPratico 4\TP4Q02-PILHA\obj\Debug\net6.0\TP4Q02-PILHA.AssemblyInfo.cs
+C:\Users\davio\OneDrive\Documentos\CloneGit\CSHARP\CSharp\AEDS\exerciciosAeds\TrabalhoPratico 4\TP4Q02-PILHA\obj\Debug\net6.0\TP4Q02-PILHA.csproj.CoreCompileInputs.cache
+C:\Users\davio\OneDrive\Documentos\CloneGit\CSHARP\CSharp\AEDS\exerciciosAeds\TrabalhoPratico 4\TP4Q02-PILHA\obj\Debug\net6.0\TP4Q02-PILHA.dll
+C:\Users\davio\OneDrive\Documentos\CloneGit\CSHARP\CSharp\AEDS\exerciciosAeds\TrabalhoPratico 4\TP4Q02-PILHA\obj\Debug\net6.0\refint\TP4Q02-PILHA.dll
+C:\Users\davio\OneDrive\Documentos\CloneGit\CSHARP\CSharp\AEDS\exerciciosAeds\TrabalhoPratico 4\TP4Q02-PILHA\obj\Debug\net6.0\TP4Q02-PILHA.pdb
+C:\Users\davio\OneDrive\Documentos\CloneGit\CSHARP\CSharp\AEDS\exerciciosAeds\TrabalhoPratico 4\TP4Q02-PILHA\obj\Debug\net6.0\TP4Q02-PILHA.genruntimeconfig.cache
+C:\Users\davio\OneDrive\Documentos\CloneGit\CSHARP\CSharp\AEDS\exerciciosAeds\TrabalhoPratico 4\TP4Q02-PILHA\obj\Debug\net6.0\ref\TP4Q02-PILHA.dll

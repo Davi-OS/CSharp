@@ -1,0 +1,15 @@
+C:\Users\davio\OneDrive\Documentos\CloneGit\CSHARP\CSharp\AEDS\exerciciosAeds\TrabalhoPratico 3\TP3Q1\bin\Debug\net6.0\TP3Q1.exe
+C:\Users\davio\OneDrive\Documentos\CloneGit\CSHARP\CSharp\AEDS\exerciciosAeds\TrabalhoPratico 3\TP3Q1\bin\Debug\net6.0\TP3Q1.deps.json
+C:\Users\davio\OneDrive\Documentos\CloneGit\CSHARP\CSharp\AEDS\exerciciosAeds\TrabalhoPratico 3\TP3Q1\bin\Debug\net6.0\TP3Q1.runtimeconfig.json
+C:\Users\davio\OneDrive\Documentos\CloneGit\CSHARP\CSharp\AEDS\exerciciosAeds\TrabalhoPratico 3\TP3Q1\bin\Debug\net6.0\TP3Q1.dll
+C:\Users\davio\OneDrive\Documentos\CloneGit\CSHARP\CSharp\AEDS\exerciciosAeds\TrabalhoPratico 3\TP3Q1\bin\Debug\net6.0\TP3Q1.pdb
+C:\Users\davio\OneDrive\Documentos\CloneGit\CSHARP\CSharp\AEDS\exerciciosAeds\TrabalhoPratico 3\TP3Q1\obj\Debug\net6.0\TP3Q1.csproj.AssemblyReference.cache
+C:\Users\davio\OneDrive\Documentos\CloneGit\CSHARP\CSharp\AEDS\exerciciosAeds\TrabalhoPratico 3\TP3Q1\obj\Debug\net6.0\TP3Q1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\davio\OneDrive\Documentos\CloneGit\CSHARP\CSharp\AEDS\exerciciosAeds\TrabalhoPratico 3\TP3Q1\obj\Debug\net6.0\TP3Q1.AssemblyInfoInputs.cache
+C:\Users\davio\OneDrive\Documentos\CloneGit\CSHARP\CSharp\AEDS\exerciciosAeds\TrabalhoPratico 3\TP3Q1\obj\Debug\net6.0\TP3Q1.AssemblyInfo.cs
+C:\Users\davio\OneDrive\Documentos\CloneGit\CSHARP\CSharp\AEDS\exerciciosAeds\TrabalhoPratico 3\TP3Q1\obj\Debug\net6.0\TP3Q1.csproj.CoreCompileInputs.cache
+C:\Users\davio\OneDrive\Documentos\CloneGit\CSHARP\CSharp\AEDS\exerciciosAeds\TrabalhoPratico 3\TP3Q1\obj\Debug\net6.0\TP3Q1.dll
+C:\Users\davio\OneDrive\Documentos\CloneGit\CSHARP\CSharp\AEDS\exerciciosAeds\TrabalhoPratico 3\TP3Q1\obj\Debug\net6.0\refint\TP3Q1.dll
+C:\Users\davio\OneDrive\Documentos\CloneGit\CSHARP\CSharp\AEDS\exerciciosAeds\TrabalhoPratico 3\TP3Q1\obj\Debug\net6.0\TP3Q1.pdb
+C:\Users\davio\OneDrive\Documentos\CloneGit\CSHARP\CSharp\AEDS\exerciciosAeds\TrabalhoPratico 3\TP3Q1\obj\Debug\net6.0\TP3Q1.genruntimeconfig.cache
+C:\Users\davio\OneDrive\Documentos\CloneGit\CSHARP\CSharp\AEDS\exerciciosAeds\TrabalhoPratico 3\TP3Q1\obj\Debug\net6.0\ref\TP3Q1.dll
