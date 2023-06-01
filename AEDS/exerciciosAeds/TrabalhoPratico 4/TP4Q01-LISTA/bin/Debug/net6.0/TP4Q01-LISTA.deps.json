@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "TP4Q01-LISTA/1.0.0": {
+        "runtime": {
+          "TP4Q01-LISTA.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "TP4Q01-LISTA/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
