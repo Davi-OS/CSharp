@@ -1,0 +1,15 @@
+C:\Users\davio\OneDrive\Documentos\CloneGit\CSHARP\CSharp\APIs + C#\VIACEP\bin\Debug\net6.0\VIACEP.exe
+C:\Users\davio\OneDrive\Documentos\CloneGit\CSHARP\CSharp\APIs + C#\VIACEP\bin\Debug\net6.0\VIACEP.deps.json
+C:\Users\davio\OneDrive\Documentos\CloneGit\CSHARP\CSharp\APIs + C#\VIACEP\bin\Debug\net6.0\VIACEP.runtimeconfig.json
+C:\Users\davio\OneDrive\Documentos\CloneGit\CSHARP\CSharp\APIs + C#\VIACEP\bin\Debug\net6.0\VIACEP.dll
+C:\Users\davio\OneDrive\Documentos\CloneGit\CSHARP\CSharp\APIs + C#\VIACEP\bin\Debug\net6.0\VIACEP.pdb
+C:\Users\davio\OneDrive\Documentos\CloneGit\CSHARP\CSharp\APIs + C#\VIACEP\obj\Debug\net6.0\VIACEP.csproj.AssemblyReference.cache
+C:\Users\davio\OneDrive\Documentos\CloneGit\CSHARP\CSharp\APIs + C#\VIACEP\obj\Debug\net6.0\VIACEP.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\davio\OneDrive\Documentos\CloneGit\CSHARP\CSharp\APIs + C#\VIACEP\obj\Debug\net6.0\VIACEP.AssemblyInfoInputs.cache
+C:\Users\davio\OneDrive\Documentos\CloneGit\CSHARP\CSharp\APIs + C#\VIACEP\obj\Debug\net6.0\VIACEP.AssemblyInfo.cs
+C:\Users\davio\OneDrive\Documentos\CloneGit\CSHARP\CSharp\APIs + C#\VIACEP\obj\Debug\net6.0\VIACEP.csproj.CoreCompileInputs.cache
+C:\Users\davio\OneDrive\Documentos\CloneGit\CSHARP\CSharp\APIs + C#\VIACEP\obj\Debug\net6.0\VIACEP.dll
+C:\Users\davio\OneDrive\Documentos\CloneGit\CSHARP\CSharp\APIs + C#\VIACEP\obj\Debug\net6.0\refint\VIACEP.dll
+C:\Users\davio\OneDrive\Documentos\CloneGit\CSHARP\CSharp\APIs + C#\VIACEP\obj\Debug\net6.0\VIACEP.pdb
+C:\Users\davio\OneDrive\Documentos\CloneGit\CSHARP\CSharp\APIs + C#\VIACEP\obj\Debug\net6.0\VIACEP.genruntimeconfig.cache
+C:\Users\davio\OneDrive\Documentos\CloneGit\CSHARP\CSharp\APIs + C#\VIACEP\obj\Debug\net6.0\ref\VIACEP.dll
