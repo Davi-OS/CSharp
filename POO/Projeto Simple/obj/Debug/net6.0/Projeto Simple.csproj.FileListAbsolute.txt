@@ -1,0 +1,15 @@
+C:\Users\davio\OneDrive\Documentos\CloneGit\CSHARP\CSharp\POO\Projeto Simple\bin\Debug\net6.0\Projeto Simple.exe
+C:\Users\davio\OneDrive\Documentos\CloneGit\CSHARP\CSharp\POO\Projeto Simple\bin\Debug\net6.0\Projeto Simple.deps.json
+C:\Users\davio\OneDrive\Documentos\CloneGit\CSHARP\CSharp\POO\Projeto Simple\bin\Debug\net6.0\Projeto Simple.runtimeconfig.json
+C:\Users\davio\OneDrive\Documentos\CloneGit\CSHARP\CSharp\POO\Projeto Simple\bin\Debug\net6.0\Projeto Simple.dll
+C:\Users\davio\OneDrive\Documentos\CloneGit\CSHARP\CSharp\POO\Projeto Simple\bin\Debug\net6.0\Projeto Simple.pdb
+C:\Users\davio\OneDrive\Documentos\CloneGit\CSHARP\CSharp\POO\Projeto Simple\obj\Debug\net6.0\Projeto Simple.csproj.AssemblyReference.cache
+C:\Users\davio\OneDrive\Documentos\CloneGit\CSHARP\CSharp\POO\Projeto Simple\obj\Debug\net6.0\Projeto Simple.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\davio\OneDrive\Documentos\CloneGit\CSHARP\CSharp\POO\Projeto Simple\obj\Debug\net6.0\Projeto Simple.AssemblyInfoInputs.cache
+C:\Users\davio\OneDrive\Documentos\CloneGit\CSHARP\CSharp\POO\Projeto Simple\obj\Debug\net6.0\Projeto Simple.AssemblyInfo.cs
+C:\Users\davio\OneDrive\Documentos\CloneGit\CSHARP\CSharp\POO\Projeto Simple\obj\Debug\net6.0\Projeto Simple.csproj.CoreCompileInputs.cache
+C:\Users\davio\OneDrive\Documentos\CloneGit\CSHARP\CSharp\POO\Projeto Simple\obj\Debug\net6.0\Projeto Simple.dll
+C:\Users\davio\OneDrive\Documentos\CloneGit\CSHARP\CSharp\POO\Projeto Simple\obj\Debug\net6.0\refint\Projeto Simple.dll
+C:\Users\davio\OneDrive\Documentos\CloneGit\CSHARP\CSharp\POO\Projeto Simple\obj\Debug\net6.0\Projeto Simple.pdb
+C:\Users\davio\OneDrive\Documentos\CloneGit\CSHARP\CSharp\POO\Projeto Simple\obj\Debug\net6.0\Projeto Simple.genruntimeconfig.cache
+C:\Users\davio\OneDrive\Documentos\CloneGit\CSHARP\CSharp\POO\Projeto Simple\obj\Debug\net6.0\ref\Projeto Simple.dll
