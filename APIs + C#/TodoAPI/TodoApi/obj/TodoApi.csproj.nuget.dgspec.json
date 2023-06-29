@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\davio\\OneDrive\\Documentos\\CloneGit\\CSHARP\\CSharp\\APIs + C#\\TodoAPI\\TodoApi\\TodoApi.csproj": {}
+    "c:\\Users\\davio\\OneDrive\\Documentos\\CloneGit\\CSHARP\\CSharp\\APIs + C#\\TodoAPI\\TodoApi\\TodoApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\davio\\OneDrive\\Documentos\\CloneGit\\CSHARP\\CSharp\\APIs + C#\\TodoAPI\\TodoApi\\TodoApi.csproj": {
+    "c:\\Users\\davio\\OneDrive\\Documentos\\CloneGit\\CSHARP\\CSharp\\APIs + C#\\TodoAPI\\TodoApi\\TodoApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\davio\\OneDrive\\Documentos\\CloneGit\\CSHARP\\CSharp\\APIs + C#\\TodoAPI\\TodoApi\\TodoApi.csproj",
+        "projectUniqueName": "c:\\Users\\davio\\OneDrive\\Documentos\\CloneGit\\CSHARP\\CSharp\\APIs + C#\\TodoAPI\\TodoApi\\TodoApi.csproj",
         "projectName": "TodoApi",
-        "projectPath": "C:\\Users\\davio\\OneDrive\\Documentos\\CloneGit\\CSHARP\\CSharp\\APIs + C#\\TodoAPI\\TodoApi\\TodoApi.csproj",
+        "projectPath": "c:\\Users\\davio\\OneDrive\\Documentos\\CloneGit\\CSHARP\\CSharp\\APIs + C#\\TodoAPI\\TodoApi\\TodoApi.csproj",
         "packagesPath": "C:\\Users\\davio\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\davio\\OneDrive\\Documentos\\CloneGit\\CSHARP\\CSharp\\APIs + C#\\TodoAPI\\TodoApi\\obj\\",
+        "outputPath": "c:\\Users\\davio\\OneDrive\\Documentos\\CloneGit\\CSHARP\\CSharp\\APIs + C#\\TodoAPI\\TodoApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\davio\\AppData\\Roaming\\NuGet\\NuGet.Config"

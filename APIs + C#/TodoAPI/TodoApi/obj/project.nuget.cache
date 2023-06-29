@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "lflErQ+8PnDm1gAS8HAOwrofzng9LLQq+zzyLpsIxYmCBlsyPn773cfGaMfoyi8HNeRN1GMPtEVDFk6onRv9Ag==",
+  "dgSpecHash": "mSYjyxAaDy0pLf7AyoDPWcN5EJLrwnI76ihGvTUexfGPxICPHZzWujQQJX56xqwo/MgL2dudX9SkW9suJUPepw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\davio\\OneDrive\\Documentos\\CloneGit\\CSHARP\\CSharp\\APIs + C#\\TodoAPI\\TodoApi\\TodoApi.csproj",
+  "projectFilePath": "c:\\Users\\davio\\OneDrive\\Documentos\\CloneGit\\CSHARP\\CSharp\\APIs + C#\\TodoAPI\\TodoApi\\TodoApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\davio\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.8\\microsoft.entityframeworkcore.7.0.8.nupkg.sha512",
     "C:\\Users\\davio\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\7.0.8\\microsoft.entityframeworkcore.abstractions.7.0.8.nupkg.sha512",
