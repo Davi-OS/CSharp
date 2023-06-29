@@ -5,16 +5,25 @@ namespace OOP
 {
     public class Conta
     {
-        public Conta(int numero,double limite)
+        public Conta(int numero, double limite)
         {
             this.Numero = numero;
             this.Limite = limite;
+            Conta.TotalContasCriadas++;
         }
         private double Saldo { get; set; }
         public double Limite { get; private set; }
         public double Numero { get; private set; }
 
-        public void Deposita(double valor)
+        //atributos estaticos pertencem a classe e nao objeto
+        public static int TotalContasCriadas { get; set; }
+
+        public static int ProximoTotalContasCriadas()
+        {
+            return Conta.TotalContasCriadas + 1;
+        }
+
+        public void Depositar(double valor)
         {
             if (valor > 0)
             {

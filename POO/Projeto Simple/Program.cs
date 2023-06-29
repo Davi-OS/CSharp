@@ -5,24 +5,58 @@ namespace OOP
     {
         public static void Main(string[] args)
         {
+
+
+            ContaPoupança contaPoupança1 = new ContaPoupança(112, 0);
+            contaPoupança1.Depositar(100);
+            contaPoupança1.Sacar(10);
+            double saldo = contaPoupança1.ConsultaSaldo();
+            contaPoupança1.MostrarNumeroDaConta();
+            Console.WriteLine("saldo da conta poupança é " + saldo);
+
+            Conta conta = new Conta(113, 100);
+            conta.Depositar(500);
+            conta.Sacar(140);
+            double saldoConta = conta.ConsultaSaldo();
+            Console.WriteLine("saldo da conta Corrente é " + saldoConta);
+
+        
+
+
+
+
+
+
+
+            // Conta conta1 = new Conta(1234, 500);
+            // Conta conta2 = new Conta(5678, 800);
+            // Conta conta3 = new Conta(7890, 900);
+            // Conta conta4 = new Conta(741320, 046);
+
+            // Console.WriteLine("Total de Contoas Cridas " + Conta.TotalContasCriadas);
+            // int a = Conta.ProximoTotalContasCriadas();
+            // Console.WriteLine("Proximo Total de Contoas Cridas " + a);
+
+
+
             //Criando um objeto  de cada classe 
-            CartãoDeCredito cdc = new CartãoDeCredito();
-            Cliente c = new Cliente();
+            // CartãoDeCredito cdc = new CartãoDeCredito();
+            // Cliente c = new Cliente();
 
             // add o nome do cliente
-            c.nome = "Jose Fonseca";
+            // c.nome = "Jose Fonseca";
 
-            //add numero e validade do cartão
-            cdc.numero = "123136556";
-            cdc.DataDeValidade= "02/2025";
-            cdc.Cliente = c;
+            // //add numero e validade do cartão
+            // cdc.numero = "123136556";
+            // cdc.DataDeValidade= "02/2025";
+            // cdc.Cliente = c;
 
 
 
-            Console.WriteLine("O nome do cliente é {0}", c.nome);
-            Console.WriteLine("O numero do cartão é {0}", cdc.numero);
-            Console.WriteLine("A data de validade do cartão é {0}", cdc.DataDeValidade);
-            Console.WriteLine("O nome do cliente do agregado é {0}", cdc.Cliente.nome);
+            // Console.WriteLine("O nome do cliente é {0}", c.nome);
+            // Console.WriteLine("O numero do cartão é {0}", cdc.numero);
+            // Console.WriteLine("A data de validade do cartão é {0}", cdc.DataDeValidade);
+            // Console.WriteLine("O nome do cliente do agregado é {0}", cdc.Cliente.nome);
 
 
 
