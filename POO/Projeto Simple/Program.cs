@@ -6,7 +6,7 @@ namespace OOP
         public static void Main(string[] args)
         {
 
-           Console.Clear();
+           
             ContaPoupança contaPoupança1 = new ContaPoupança(112, 0);
             contaPoupança1.Depositar(100);
             contaPoupança1.Sacar(10);
