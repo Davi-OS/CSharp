@@ -35,7 +35,7 @@ Aprendemos tambem sobre:
 
 ## Screenshots
 <p aling:center>
- <img src="/assets/ExemploRepositorio.jpeg" alt="Minha Figura"></p>
+ <img src="Csharp/AEDS/assets/ExemploRepositorio.jpeg" alt="Minha Figura"></p>
 
 ## Rodando localmente
 
