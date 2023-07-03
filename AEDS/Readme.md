@@ -32,10 +32,10 @@ Aprendemos tambem sobre:
 
 - POO (Programação Orientada a Objeto);
 - Colections C# (ArrayList; List; Queue;)
-
+- Recursividade;
 ## Screenshots
 <p aling:center>
- <img src="Csharp/AEDS/assets/ExemploRepositorio.jpeg" alt="Minha Figura"></p>
+ <img src="https://github.com/Davi-OS/CSharp/assets/112199758/bb5926ce-4d4a-41d3-bb74-db8c65cf59e3" alt="Minha Figura"></p>
 
 ## Rodando localmente
 
