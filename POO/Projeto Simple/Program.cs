@@ -6,21 +6,46 @@ namespace OOP
         public static void Main(string[] args)
         {
 
-           
-            ContaPoupança contaPoupança1 = new ContaPoupança(112, 0);
-            contaPoupança1.Depositar(100);
-            contaPoupança1.Sacar(10);
-            double saldo = contaPoupança1.ConsultaSaldo();
-            contaPoupança1.MostrarNumeroDaConta();
-            Console.WriteLine("saldo da conta poupança é " + saldo);
+            AnalistaDeTi analistaDeTi = new AnalistaDeTi();
+            Gerente gerente = new Gerente();
+            GerenteDeAgencia gerenteDeAgencia = new GerenteDeAgencia();
+            GerenteDeTi gerenteDeTi = new GerenteDeTi();
 
-            Conta conta = new Conta(113, 100);
-            conta.Depositar(500);
-            conta.Sacar(140);
-            double saldoConta = conta.ConsultaSaldo();
-            Console.WriteLine("saldo da conta Corrente é " + saldoConta);
+            analistaDeTi.nome = "Davi de Oliveira";
+            analistaDeTi.salario = 1300;
 
-        
+            Console.WriteLine("Salario do analista de Ti é: " + analistaDeTi.salario);
+
+            analistaDeTi.reajustar();
+
+            Console.WriteLine("Salario do analista de Ti reajsutado: " + analistaDeTi.salario + "\n");
+
+            gerente.nome = "Ana Clara";
+            gerente.salario = 8000;
+
+              Console.WriteLine("Salario do gerente é: " + gerente.salario);
+
+            gerente.reajustar();
+
+            Console.WriteLine("Salario do Gerente reajsutado: " + gerente.salario + "\n");
+
+
+
+
+            // ContaPoupança contaPoupança1 = new ContaPoupança(112, 0);
+            // contaPoupança1.Depositar(100);
+            // contaPoupança1.Sacar(10);
+            // double saldo = contaPoupança1.ConsultaSaldo();
+            // contaPoupança1.MostrarNumeroDaConta();
+            // Console.WriteLine("saldo da conta poupança é " + saldo);
+
+            // Conta conta = new Conta(113, 100);
+            // conta.Depositar(500);
+            // conta.Sacar(140);
+            // double saldoConta = conta.ConsultaSaldo();
+            // Console.WriteLine("saldo da conta Corrente é " + saldoConta);
+
+
 
 
 
