@@ -6,28 +6,61 @@ namespace OOP
         public static void Main(string[] args)
         {
 
-            AnalistaDeTi analistaDeTi = new AnalistaDeTi();
-            Gerente gerente = new Gerente();
-            GerenteDeAgencia gerenteDeAgencia = new GerenteDeAgencia();
-            GerenteDeTi gerenteDeTi = new GerenteDeTi();
 
-            analistaDeTi.nome = "Davi de Oliveira";
-            analistaDeTi.salario = 1300;
+            AnalistaDeTi Davi = new AnalistaDeTi();
+            Davi.addNome("Davi", "de oliveira");
+            Davi.AddicionarSalarioPadrao(1000);
+            Davi.reajustar();
 
-            Console.WriteLine("Salario do analista de Ti é: " + analistaDeTi.salario);
+            Console.WriteLine("Salario é ${0}", Davi.salario);
 
-            analistaDeTi.reajustar();
 
-            Console.WriteLine("Salario do analista de Ti reajsutado: " + analistaDeTi.salario + "\n");
 
-            gerente.nome = "Ana Clara";
-            gerente.salario = 8000;
 
-              Console.WriteLine("Salario do gerente é: " + gerente.salario);
 
-            gerente.reajustar();
 
-            Console.WriteLine("Salario do Gerente reajsutado: " + gerente.salario + "\n");
+            
+
+
+
+            // ContaPoupança contaPoupança = new ContaPoupança(111,0);
+
+            // contaPoupança.Depositar(100);
+            // contaPoupança.Sacar(10);
+            // double saldo = contaPoupança.ConsultaSaldo();
+            // Console.WriteLine("Saldo poupança é ${0}", saldo);
+            
+            // Console.WriteLine("\n");
+
+            // ContaCorrente contaCorrente = new ContaCorrente(111,0);
+            // contaCorrente.Depositar(100);
+            // contaCorrente.Sacar(20);
+            // double saldoCorrente = contaCorrente.ConsultaSaldo();
+            // Console.WriteLine("Saldo Conta Corrente é ${0}", saldo);
+
+
+            // AnalistaDeTi analistaDeTi = new AnalistaDeTi();
+            // Gerente gerente = new Gerente();
+            // GerenteDeAgencia gerenteDeAgencia = new GerenteDeAgencia();
+            // GerenteDeTi gerenteDeTi = new GerenteDeTi();
+
+            // analistaDeTi.nome = "Davi de Oliveira";
+            // analistaDeTi.salario = 1300;
+
+            // Console.WriteLine("Salario do analista de Ti é: " + analistaDeTi.salario);
+
+            // analistaDeTi.reajustar();
+
+            // Console.WriteLine("Salario do analista de Ti reajsutado: " + analistaDeTi.salario + "\n");
+
+            // gerente.nome = "Ana Clara";
+            // gerente.salario = 8000;
+
+            //   Console.WriteLine("Salario do gerente é: " + gerente.salario);
+
+            // gerente.reajustar();
+
+            // Console.WriteLine("Salario do Gerente reajsutado: " + gerente.salario + "\n");
 
 
 

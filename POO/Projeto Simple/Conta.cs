@@ -3,7 +3,10 @@ using System.Collections.Generic;
 using System.Text;
 namespace OOP
 {
-    public class Conta
+    // ": IConta" é a interfaçe na qual Conta segue os contratos
+    // diferença de herança e implementação é : 
+    // Vc so póde herdar uma unica classe mas pode ter varias implementação com mais de uma interface.
+    public abstract class Conta : IConta
     {
         public Conta(int numero, double limite)
         {
@@ -11,7 +14,7 @@ namespace OOP
             this.Limite = limite;
             Conta.TotalContasCriadas++;
         }
-        private double Saldo { get; set; }
+        protected double Saldo { get; set; }
         public double Limite { get; private set; }
         public double Numero { get; private set; }
 
@@ -45,7 +48,9 @@ namespace OOP
         {
             this.Limite = valor;
         }
-        public bool Sacar(double valor)
+
+        // virtual permite que classe herdeiras possam sobreescrever esse metodo
+        public virtual bool Sacar(double valor)
         {
             double saldoDisponivel = this.ConsultaSaldo();
             if (valor > saldoDisponivel)
