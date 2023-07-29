@@ -67,6 +67,13 @@ namespace DigiBank.Classes
             Console.WriteLine("            =============================                ");
 
 
+            //agurda 1 seg
+
+            Thread.Sleep(1000);
+            ContaLogada(pessoa);
+
+
+
         }
 
         private static void TelaLogin()
@@ -80,6 +87,72 @@ namespace DigiBank.Classes
             Console.WriteLine("            Digite sua senha:                            ");
             string senha = Console.ReadLine();
             Console.WriteLine("            =============================                ");
+
+            Pessoa pessoa = pessoaList.FirstOrDefault(x => x.CPF == CPF && x.Senha == senha);
+            if (pessoa != null)
+            {
+                TelaBoasVindas(pessoa);
+                ContaLogada(pessoa);
+            }
+            else
+            {
+                Console.Clear();
+                Console.WriteLine("            Pessoa não cadastrada!                       ");
+                Console.WriteLine("            =============================                ");
+                Thread.Sleep(1000);
+                TelaPrincipal();
+                
+
+            }
+        }
+        private static void TelaBoasVindas(Pessoa pessoa)
+        {
+            Console.Clear();
+
+            string msgTelaBenvindo =
+      $"{pessoa.Nome} | Banco: {pessoa.Conta.GetCodigoDoBanco()}" +
+      $" | Agencia: {pessoa.Conta.GetNumeroAgencia()} | Conta: {pessoa.Conta.GetNumeroDaConta()}";
+            Console.WriteLine("");
+            Console.WriteLine($"        Seja Benvindo(a), {msgTelaBenvindo}");
+            Console.WriteLine("");
+        }
+        private static void ContaLogada(Pessoa pessoa)
+        {
+            Console.Clear();
+            TelaBoasVindas(pessoa);
+            Console.WriteLine("                                                         ");
+            Console.WriteLine("            Digite a opção desejada:                     ");
+            Console.WriteLine("           |==============================|              ");
+            Console.WriteLine("           [1] - Realizar um deposito     |              ");
+            Console.WriteLine("           |------------------------------|              ");
+            Console.WriteLine("           [2] - Realizar um saque        |              ");
+            Console.WriteLine("           |------------------------------|              ");
+            Console.WriteLine("           [3] - Consultar o saldo        |              ");
+            Console.WriteLine("           |------------------------------|              ");
+            Console.WriteLine("           [4] - Extrato                  |              ");
+            Console.WriteLine("           |------------------------------|              ");
+            Console.WriteLine("           [5] - Sair                     |              ");
+            Console.WriteLine("           |==============================|              ");
+
+            opcao = int.Parse(Console.ReadLine());
+            switch (opcao)
+            {
+                case 1:
+                    break;
+                case 2:
+                    break;
+                case 3:
+                    break;
+                case 4:
+                    break;
+                case 5:
+                    TelaPrincipal();
+                    break;
+                default:
+                    Console.Clear();
+                    Console.WriteLine("Opção invalida!");
+                    break;
+            }
 
 
         }

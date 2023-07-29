@@ -11,7 +11,7 @@ namespace DigiBank.Classes
     {
         public Conta()
         {
-            this.NumeroDaConta = "0001";
+            this.NumeroDaAgencia = "0001";
             Conta.NumeroSequencial++;
         }
         public double Saldo { get; protected set; }
