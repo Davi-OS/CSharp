@@ -13,11 +13,13 @@ namespace DigiBank.Classes
         {
             this.NumeroDaAgencia = "0001";
             Conta.NumeroSequencial++;
+            this.Movimentacoes = new List<Extrato>();
         }
         public double Saldo { get; protected set; }
         public string NumeroDaAgencia { get; protected set; }
         public string NumeroDaConta { get; protected set; }
         public static int NumeroSequencial { get; protected set; }
+        private List<Extrato> Movimentacoes;
         public double ConsultaSaldo()
         {
             return this.Saldo;
@@ -27,7 +29,8 @@ namespace DigiBank.Classes
         {
             if (valor > 0)
             {
-
+                DateTime dataAtual = DateTime.Now;
+                this.Movimentacoes.Add(new Extrato(dataAtual,"Deposito",valor));
                 this.Saldo += valor;
             }
             else
@@ -55,6 +58,8 @@ namespace DigiBank.Classes
         {
             if (valor <= Saldo)
             {
+                DateTime dataAtual = DateTime.Now;
+                this.Movimentacoes.Add(new Extrato(dataAtual, "Saque", valor));
                 Saldo -= valor;
                 return true;
             }
@@ -63,6 +68,11 @@ namespace DigiBank.Classes
                 Console.WriteLine("Operação Invalida");
                 return false;
             }
+        }
+
+        public List<Extrato> Extrato()
+        {
+            return this.Movimentacoes;
         }
     }
 }

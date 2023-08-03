@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DigiBank.Classes;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -14,5 +15,6 @@ namespace DigiBank.Interfaces
         string GetCodigoDoBanco();
         string GetNumeroAgencia();
         string GetNumeroDaConta();
+        List<Extrato> Extrato();
     }
 }
