@@ -1,0 +1,14 @@
+C:\Users\davio\OneDrive\Documentos\CloneGit\CSHARP\CSharp\POO\POO Udemy\exercicios Aulas\LINQ\LINQ + SQL\bin\Debug\net6.0\LINQ + SQL.exe
+C:\Users\davio\OneDrive\Documentos\CloneGit\CSHARP\CSharp\POO\POO Udemy\exercicios Aulas\LINQ\LINQ + SQL\bin\Debug\net6.0\LINQ + SQL.deps.json
+C:\Users\davio\OneDrive\Documentos\CloneGit\CSHARP\CSharp\POO\POO Udemy\exercicios Aulas\LINQ\LINQ + SQL\bin\Debug\net6.0\LINQ + SQL.runtimeconfig.json
+C:\Users\davio\OneDrive\Documentos\CloneGit\CSHARP\CSharp\POO\POO Udemy\exercicios Aulas\LINQ\LINQ + SQL\bin\Debug\net6.0\LINQ + SQL.dll
+C:\Users\davio\OneDrive\Documentos\CloneGit\CSHARP\CSharp\POO\POO Udemy\exercicios Aulas\LINQ\LINQ + SQL\bin\Debug\net6.0\LINQ + SQL.pdb
+C:\Users\davio\OneDrive\Documentos\CloneGit\CSHARP\CSharp\POO\POO Udemy\exercicios Aulas\LINQ\LINQ + SQL\obj\Debug\net6.0\LINQ + SQL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\davio\OneDrive\Documentos\CloneGit\CSHARP\CSharp\POO\POO Udemy\exercicios Aulas\LINQ\LINQ + SQL\obj\Debug\net6.0\LINQ + SQL.AssemblyInfoInputs.cache
+C:\Users\davio\OneDrive\Documentos\CloneGit\CSHARP\CSharp\POO\POO Udemy\exercicios Aulas\LINQ\LINQ + SQL\obj\Debug\net6.0\LINQ + SQL.AssemblyInfo.cs
+C:\Users\davio\OneDrive\Documentos\CloneGit\CSHARP\CSharp\POO\POO Udemy\exercicios Aulas\LINQ\LINQ + SQL\obj\Debug\net6.0\LINQ + SQL.csproj.CoreCompileInputs.cache
+C:\Users\davio\OneDrive\Documentos\CloneGit\CSHARP\CSharp\POO\POO Udemy\exercicios Aulas\LINQ\LINQ + SQL\obj\Debug\net6.0\LINQ + SQL.dll
+C:\Users\davio\OneDrive\Documentos\CloneGit\CSHARP\CSharp\POO\POO Udemy\exercicios Aulas\LINQ\LINQ + SQL\obj\Debug\net6.0\refint\LINQ + SQL.dll
+C:\Users\davio\OneDrive\Documentos\CloneGit\CSHARP\CSharp\POO\POO Udemy\exercicios Aulas\LINQ\LINQ + SQL\obj\Debug\net6.0\LINQ + SQL.pdb
+C:\Users\davio\OneDrive\Documentos\CloneGit\CSHARP\CSharp\POO\POO Udemy\exercicios Aulas\LINQ\LINQ + SQL\obj\Debug\net6.0\LINQ + SQL.genruntimeconfig.cache
+C:\Users\davio\OneDrive\Documentos\CloneGit\CSHARP\CSharp\POO\POO Udemy\exercicios Aulas\LINQ\LINQ + SQL\obj\Debug\net6.0\ref\LINQ + SQL.dll
