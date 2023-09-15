@@ -1,0 +1,14 @@
+C:\Users\davio\OneDrive\Documentos\CloneGit\CSHARP\CSharp\POO\POO Udemy\exercicios Aulas\Generics\Dictionary\bin\Debug\net6.0\Dictionary.exe
+C:\Users\davio\OneDrive\Documentos\CloneGit\CSHARP\CSharp\POO\POO Udemy\exercicios Aulas\Generics\Dictionary\bin\Debug\net6.0\Dictionary.deps.json
+C:\Users\davio\OneDrive\Documentos\CloneGit\CSHARP\CSharp\POO\POO Udemy\exercicios Aulas\Generics\Dictionary\bin\Debug\net6.0\Dictionary.runtimeconfig.json
+C:\Users\davio\OneDrive\Documentos\CloneGit\CSHARP\CSharp\POO\POO Udemy\exercicios Aulas\Generics\Dictionary\bin\Debug\net6.0\Dictionary.dll
+C:\Users\davio\OneDrive\Documentos\CloneGit\CSHARP\CSharp\POO\POO Udemy\exercicios Aulas\Generics\Dictionary\bin\Debug\net6.0\Dictionary.pdb
+C:\Users\davio\OneDrive\Documentos\CloneGit\CSHARP\CSharp\POO\POO Udemy\exercicios Aulas\Generics\Dictionary\obj\Debug\net6.0\Dictionary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\davio\OneDrive\Documentos\CloneGit\CSHARP\CSharp\POO\POO Udemy\exercicios Aulas\Generics\Dictionary\obj\Debug\net6.0\Dictionary.AssemblyInfoInputs.cache
+C:\Users\davio\OneDrive\Documentos\CloneGit\CSHARP\CSharp\POO\POO Udemy\exercicios Aulas\Generics\Dictionary\obj\Debug\net6.0\Dictionary.AssemblyInfo.cs
+C:\Users\davio\OneDrive\Documentos\CloneGit\CSHARP\CSharp\POO\POO Udemy\exercicios Aulas\Generics\Dictionary\obj\Debug\net6.0\Dictionary.csproj.CoreCompileInputs.cache
+C:\Users\davio\OneDrive\Documentos\CloneGit\CSHARP\CSharp\POO\POO Udemy\exercicios Aulas\Generics\Dictionary\obj\Debug\net6.0\Dictionary.dll
+C:\Users\davio\OneDrive\Documentos\CloneGit\CSHARP\CSharp\POO\POO Udemy\exercicios Aulas\Generics\Dictionary\obj\Debug\net6.0\refint\Dictionary.dll
+C:\Users\davio\OneDrive\Documentos\CloneGit\CSHARP\CSharp\POO\POO Udemy\exercicios Aulas\Generics\Dictionary\obj\Debug\net6.0\Dictionary.pdb
+C:\Users\davio\OneDrive\Documentos\CloneGit\CSHARP\CSharp\POO\POO Udemy\exercicios Aulas\Generics\Dictionary\obj\Debug\net6.0\Dictionary.genruntimeconfig.cache
+C:\Users\davio\OneDrive\Documentos\CloneGit\CSHARP\CSharp\POO\POO Udemy\exercicios Aulas\Generics\Dictionary\obj\Debug\net6.0\ref\Dictionary.dll
