@@ -16,6 +16,22 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\davio\OneDrive\Documentos\CloneGit\CSHARP\CSharp\POO\POO Udemy\exercicios Aulas\SalesWebMvc\SalesWebMvc
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/davio/OneDrive/Documentos/CloneGit/CSHARP/CSharp/POO/POO Udemy/exercicios Aulas/SalesWebMvc/SalesWebMvc/Views/Departaments/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0YW1lbnRzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/davio/OneDrive/Documentos/CloneGit/CSHARP/CSharp/POO/POO Udemy/exercicios Aulas/SalesWebMvc/SalesWebMvc/Views/Departaments/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0YW1lbnRzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/davio/OneDrive/Documentos/CloneGit/CSHARP/CSharp/POO/POO Udemy/exercicios Aulas/SalesWebMvc/SalesWebMvc/Views/Departaments/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0YW1lbnRzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/davio/OneDrive/Documentos/CloneGit/CSHARP/CSharp/POO/POO Udemy/exercicios Aulas/SalesWebMvc/SalesWebMvc/Views/Departaments/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0YW1lbnRzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/davio/OneDrive/Documentos/CloneGit/CSHARP/CSharp/POO/POO Udemy/exercicios Aulas/SalesWebMvc/SalesWebMvc/Views/Departaments/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0YW1lbnRzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
