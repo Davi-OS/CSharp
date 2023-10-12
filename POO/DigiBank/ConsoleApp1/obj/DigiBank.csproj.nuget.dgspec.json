@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\davio\\source\\repos\\DigiBank\\ConsoleApp1\\DigiBank.csproj": {}
+    "C:\\Users\\davio\\OneDrive\\Documentos\\CloneGit\\CSHARP\\CSharp\\POO\\DigiBank\\ConsoleApp1\\DigiBank.csproj": {}
   },
   "projects": {
-    "C:\\Users\\davio\\source\\repos\\DigiBank\\ConsoleApp1\\DigiBank.csproj": {
+    "C:\\Users\\davio\\OneDrive\\Documentos\\CloneGit\\CSHARP\\CSharp\\POO\\DigiBank\\ConsoleApp1\\DigiBank.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\davio\\source\\repos\\DigiBank\\ConsoleApp1\\DigiBank.csproj",
+        "projectUniqueName": "C:\\Users\\davio\\OneDrive\\Documentos\\CloneGit\\CSHARP\\CSharp\\POO\\DigiBank\\ConsoleApp1\\DigiBank.csproj",
         "projectName": "DigiBank",
-        "projectPath": "C:\\Users\\davio\\source\\repos\\DigiBank\\ConsoleApp1\\DigiBank.csproj",
+        "projectPath": "C:\\Users\\davio\\OneDrive\\Documentos\\CloneGit\\CSHARP\\CSharp\\POO\\DigiBank\\ConsoleApp1\\DigiBank.csproj",
         "packagesPath": "C:\\Users\\davio\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\davio\\source\\repos\\DigiBank\\ConsoleApp1\\obj\\",
+        "outputPath": "C:\\Users\\davio\\OneDrive\\Documentos\\CloneGit\\CSHARP\\CSharp\\POO\\DigiBank\\ConsoleApp1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -60,7 +60,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }
