@@ -1,0 +1,14 @@
+C:\Users\davio\OneDrive\Documentos\CloneGit\CSHARP\CSharp\POO\POO Udemy\exercicios Aulas\LINQ\LINQ + LAMBDA\bin\Debug\net6.0\LINQ + LAMBDA.exe
+C:\Users\davio\OneDrive\Documentos\CloneGit\CSHARP\CSharp\POO\POO Udemy\exercicios Aulas\LINQ\LINQ + LAMBDA\bin\Debug\net6.0\LINQ + LAMBDA.deps.json
+C:\Users\davio\OneDrive\Documentos\CloneGit\CSHARP\CSharp\POO\POO Udemy\exercicios Aulas\LINQ\LINQ + LAMBDA\bin\Debug\net6.0\LINQ + LAMBDA.runtimeconfig.json
+C:\Users\davio\OneDrive\Documentos\CloneGit\CSHARP\CSharp\POO\POO Udemy\exercicios Aulas\LINQ\LINQ + LAMBDA\bin\Debug\net6.0\LINQ + LAMBDA.dll
+C:\Users\davio\OneDrive\Documentos\CloneGit\CSHARP\CSharp\POO\POO Udemy\exercicios Aulas\LINQ\LINQ + LAMBDA\bin\Debug\net6.0\LINQ + LAMBDA.pdb
+C:\Users\davio\OneDrive\Documentos\CloneGit\CSHARP\CSharp\POO\POO Udemy\exercicios Aulas\LINQ\LINQ + LAMBDA\obj\Debug\net6.0\LINQ + LAMBDA.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\davio\OneDrive\Documentos\CloneGit\CSHARP\CSharp\POO\POO Udemy\exercicios Aulas\LINQ\LINQ + LAMBDA\obj\Debug\net6.0\LINQ + LAMBDA.AssemblyInfoInputs.cache
+C:\Users\davio\OneDrive\Documentos\CloneGit\CSHARP\CSharp\POO\POO Udemy\exercicios Aulas\LINQ\LINQ + LAMBDA\obj\Debug\net6.0\LINQ + LAMBDA.AssemblyInfo.cs
+C:\Users\davio\OneDrive\Documentos\CloneGit\CSHARP\CSharp\POO\POO Udemy\exercicios Aulas\LINQ\LINQ + LAMBDA\obj\Debug\net6.0\LINQ + LAMBDA.csproj.CoreCompileInputs.cache
+C:\Users\davio\OneDrive\Documentos\CloneGit\CSHARP\CSharp\POO\POO Udemy\exercicios Aulas\LINQ\LINQ + LAMBDA\obj\Debug\net6.0\LINQ + LAMBDA.dll
+C:\Users\davio\OneDrive\Documentos\CloneGit\CSHARP\CSharp\POO\POO Udemy\exercicios Aulas\LINQ\LINQ + LAMBDA\obj\Debug\net6.0\refint\LINQ + LAMBDA.dll
+C:\Users\davio\OneDrive\Documentos\CloneGit\CSHARP\CSharp\POO\POO Udemy\exercicios Aulas\LINQ\LINQ + LAMBDA\obj\Debug\net6.0\LINQ + LAMBDA.pdb
+C:\Users\davio\OneDrive\Documentos\CloneGit\CSHARP\CSharp\POO\POO Udemy\exercicios Aulas\LINQ\LINQ + LAMBDA\obj\Debug\net6.0\LINQ + LAMBDA.genruntimeconfig.cache
+C:\Users\davio\OneDrive\Documentos\CloneGit\CSHARP\CSharp\POO\POO Udemy\exercicios Aulas\LINQ\LINQ + LAMBDA\obj\Debug\net6.0\ref\LINQ + LAMBDA.dll

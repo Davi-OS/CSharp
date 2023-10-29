@@ -1,0 +1,14 @@
+C:\Users\davio\OneDrive\Documentos\CloneGit\CSHARP\CSharp\POO\POO Udemy\exercicios Aulas\LINQ\ExercicioFixação\bin\Debug\net6.0\ExercicioFixação.exe
+C:\Users\davio\OneDrive\Documentos\CloneGit\CSHARP\CSharp\POO\POO Udemy\exercicios Aulas\LINQ\ExercicioFixação\bin\Debug\net6.0\ExercicioFixação.deps.json
+C:\Users\davio\OneDrive\Documentos\CloneGit\CSHARP\CSharp\POO\POO Udemy\exercicios Aulas\LINQ\ExercicioFixação\bin\Debug\net6.0\ExercicioFixação.runtimeconfig.json
+C:\Users\davio\OneDrive\Documentos\CloneGit\CSHARP\CSharp\POO\POO Udemy\exercicios Aulas\LINQ\ExercicioFixação\bin\Debug\net6.0\ExercicioFixação.dll
+C:\Users\davio\OneDrive\Documentos\CloneGit\CSHARP\CSharp\POO\POO Udemy\exercicios Aulas\LINQ\ExercicioFixação\bin\Debug\net6.0\ExercicioFixação.pdb
+C:\Users\davio\OneDrive\Documentos\CloneGit\CSHARP\CSharp\POO\POO Udemy\exercicios Aulas\LINQ\ExercicioFixação\obj\Debug\net6.0\ExercicioFixação.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\davio\OneDrive\Documentos\CloneGit\CSHARP\CSharp\POO\POO Udemy\exercicios Aulas\LINQ\ExercicioFixação\obj\Debug\net6.0\ExercicioFixação.AssemblyInfoInputs.cache
+C:\Users\davio\OneDrive\Documentos\CloneGit\CSHARP\CSharp\POO\POO Udemy\exercicios Aulas\LINQ\ExercicioFixação\obj\Debug\net6.0\ExercicioFixação.AssemblyInfo.cs
+C:\Users\davio\OneDrive\Documentos\CloneGit\CSHARP\CSharp\POO\POO Udemy\exercicios Aulas\LINQ\ExercicioFixação\obj\Debug\net6.0\ExercicioFixação.csproj.CoreCompileInputs.cache
+C:\Users\davio\OneDrive\Documentos\CloneGit\CSHARP\CSharp\POO\POO Udemy\exercicios Aulas\LINQ\ExercicioFixação\obj\Debug\net6.0\ExercicioFixação.dll
+C:\Users\davio\OneDrive\Documentos\CloneGit\CSHARP\CSharp\POO\POO Udemy\exercicios Aulas\LINQ\ExercicioFixação\obj\Debug\net6.0\refint\ExercicioFixação.dll
+C:\Users\davio\OneDrive\Documentos\CloneGit\CSHARP\CSharp\POO\POO Udemy\exercicios Aulas\LINQ\ExercicioFixação\obj\Debug\net6.0\ExercicioFixação.pdb
+C:\Users\davio\OneDrive\Documentos\CloneGit\CSHARP\CSharp\POO\POO Udemy\exercicios Aulas\LINQ\ExercicioFixação\obj\Debug\net6.0\ExercicioFixação.genruntimeconfig.cache
+C:\Users\davio\OneDrive\Documentos\CloneGit\CSHARP\CSharp\POO\POO Udemy\exercicios Aulas\LINQ\ExercicioFixação\obj\Debug\net6.0\ref\ExercicioFixação.dll

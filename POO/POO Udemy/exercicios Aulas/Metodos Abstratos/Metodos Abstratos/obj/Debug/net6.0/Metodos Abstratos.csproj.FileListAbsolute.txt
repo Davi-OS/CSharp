@@ -1,0 +1,14 @@
+C:\Users\davio\OneDrive\Documentos\CloneGit\CSHARP\CSharp\POO\POO Udemy\exercicios Aulas\Metodos Abstratos\Metodos Abstratos\bin\Debug\net6.0\Metodos Abstratos.exe
+C:\Users\davio\OneDrive\Documentos\CloneGit\CSHARP\CSharp\POO\POO Udemy\exercicios Aulas\Metodos Abstratos\Metodos Abstratos\bin\Debug\net6.0\Metodos Abstratos.deps.json
+C:\Users\davio\OneDrive\Documentos\CloneGit\CSHARP\CSharp\POO\POO Udemy\exercicios Aulas\Metodos Abstratos\Metodos Abstratos\bin\Debug\net6.0\Metodos Abstratos.runtimeconfig.json
+C:\Users\davio\OneDrive\Documentos\CloneGit\CSHARP\CSharp\POO\POO Udemy\exercicios Aulas\Metodos Abstratos\Metodos Abstratos\bin\Debug\net6.0\Metodos Abstratos.dll
+C:\Users\davio\OneDrive\Documentos\CloneGit\CSHARP\CSharp\POO\POO Udemy\exercicios Aulas\Metodos Abstratos\Metodos Abstratos\bin\Debug\net6.0\Metodos Abstratos.pdb
+C:\Users\davio\OneDrive\Documentos\CloneGit\CSHARP\CSharp\POO\POO Udemy\exercicios Aulas\Metodos Abstratos\Metodos Abstratos\obj\Debug\net6.0\Metodos Abstratos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\davio\OneDrive\Documentos\CloneGit\CSHARP\CSharp\POO\POO Udemy\exercicios Aulas\Metodos Abstratos\Metodos Abstratos\obj\Debug\net6.0\Metodos Abstratos.AssemblyInfoInputs.cache
+C:\Users\davio\OneDrive\Documentos\CloneGit\CSHARP\CSharp\POO\POO Udemy\exercicios Aulas\Metodos Abstratos\Metodos Abstratos\obj\Debug\net6.0\Metodos Abstratos.AssemblyInfo.cs
+C:\Users\davio\OneDrive\Documentos\CloneGit\CSHARP\CSharp\POO\POO Udemy\exercicios Aulas\Metodos Abstratos\Metodos Abstratos\obj\Debug\net6.0\Metodos Abstratos.csproj.CoreCompileInputs.cache
+C:\Users\davio\OneDrive\Documentos\CloneGit\CSHARP\CSharp\POO\POO Udemy\exercicios Aulas\Metodos Abstratos\Metodos Abstratos\obj\Debug\net6.0\Metodos Abstratos.dll
+C:\Users\davio\OneDrive\Documentos\CloneGit\CSHARP\CSharp\POO\POO Udemy\exercicios Aulas\Metodos Abstratos\Metodos Abstratos\obj\Debug\net6.0\refint\Metodos Abstratos.dll
+C:\Users\davio\OneDrive\Documentos\CloneGit\CSHARP\CSharp\POO\POO Udemy\exercicios Aulas\Metodos Abstratos\Metodos Abstratos\obj\Debug\net6.0\Metodos Abstratos.pdb
+C:\Users\davio\OneDrive\Documentos\CloneGit\CSHARP\CSharp\POO\POO Udemy\exercicios Aulas\Metodos Abstratos\Metodos Abstratos\obj\Debug\net6.0\Metodos Abstratos.genruntimeconfig.cache
+C:\Users\davio\OneDrive\Documentos\CloneGit\CSHARP\CSharp\POO\POO Udemy\exercicios Aulas\Metodos Abstratos\Metodos Abstratos\obj\Debug\net6.0\ref\Metodos Abstratos.dll
